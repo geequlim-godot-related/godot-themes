@@ -1,0 +1,1006 @@
+; *******************
+; Template Theme File
+; *******************
+;
+; Theme Syntax:
+; -------------
+;
+; Must be placed in section [theme]
+;
+; Type.item = [value]
+;
+; [value] examples:
+;
+; Type.item = 6 ; numeric constant.
+; Type.item = #FF00FF ; HTML color
+; Type.item = #55FF00FF ; HTML color with alpha 55.
+; Type.item = icon(image.png) ; icon in a png file (relative to theme file).
+; Type.item = font(font.xres) ; font in a resource (relative to theme file).
+; Type.item = sbox(stylebox.xres) ; stylebox in a resource (relative to theme file).
+; Type.item = sboxf(2,#FF00FF) ; flat stylebox with margin 2.
+; Type.item = sboxf(2,#FF00FF,#FFFFFF) ; flat stylebox with margin 2 and border.
+; Type.item = sboxf(2,#FF00FF,#FFFFFF,#000000) ; flat stylebox with margin 2, light & dark borders.
+; Type.item = sboxt(base.png,2,2,2,2) ; textured stylebox with 3x3 stretch and stretch margins.
+;   -Additionally, 4 extra integers can be added to sboxf and sboxt to specify custom padding of contents:
+; Type.item = sboxt(base.png,2,2,2,2,5,4,2,4) ;
+;   -Order for all is always left, top, right, bottom.
+;
+; Special values:
+; Type.item = default ; use the value in the default theme (must exist there).
+; Type.item = @somebutton_color ; reference to a library value previously defined.
+;
+; Library Syntax:
+; ---------------
+;
+; Must be placed in section [library], but usage is optional.
+;
+; item = [value] ; same as Theme, but assign to library.
+;
+; examples:
+;
+; [library]
+;
+; default_button_color = #FF00FF
+;
+; [theme]
+;
+; Button.color = @default_button_color ; used reference.
+;
+; *******************
+;
+; Template Generated Using: 2.1.alpha.custom_build
+;
+;
+
+[library]
+
+; place library stuff here
+
+[theme]
+
+
+
+; ******
+; Button
+; ******
+
+; StyleBox Items:
+
+Button.normal = default
+Button.pressed = default
+Button.hover = default
+Button.disabled = default
+Button.font_color = #5c616c
+
+; Font Items:
+
+Button.font = default
+
+; Color Items:
+
+Button.font_color = #5c616c
+Button.font_color_disabled = default
+Button.font_color_hover = default
+Button.font_color_pressed = default
+
+; Constant Items:
+
+Button.hseparation = default
+
+; ***********
+; ButtonGroup
+; ***********
+
+; StyleBox Items:
+
+ButtonGroup.panel = default
+
+; ********
+; CheckBox
+; ********
+
+; StyleBox Items:
+
+CheckBox.font_color = #5c616c
+CheckBox.hover = default
+
+; Font Items:
+
+CheckBox.font = default
+
+; Icon Items:
+
+CheckBox.checked = default
+CheckBox.unchecked = default
+CheckBox.radio_checked = default
+CheckBox.radio_unchecked = default
+
+; Color Items:
+
+CheckBox.font_color = default
+CheckBox.font_color_disabled = default
+CheckBox.font_color_hover = default
+CheckBox.font_color_pressed = default
+
+; Constant Items:
+
+CheckBox.check_vadjust = default
+CheckBox.hseparation = default
+
+; ***********
+; CheckButton
+; ***********
+
+; StyleBox Items:
+
+CheckButton.font_color = #5c616c
+CheckButton.hover = default
+
+; Font Items:
+
+CheckButton.font = default
+
+; Icon Items:
+
+CheckButton.on = default
+CheckButton.off = default
+
+; Color Items:
+
+CheckButton.font_color = default
+CheckButton.font_color_disabled = default
+CheckButton.font_color_hover = default
+CheckButton.font_color_pressed = default
+
+; Constant Items:
+
+CheckButton.check_vadjust = default
+CheckButton.hseparation = default
+
+; ***********
+; ColorPicker
+; ***********
+
+; Icon Items:
+
+ColorPicker.screen_picker = default
+ColorPicker.add_preset = default
+
+; Constant Items:
+
+ColorPicker.color_width = default
+ColorPicker.hseparator = default
+ColorPicker.label_width = default
+ColorPicker.value_height = default
+ColorPicker.value_width = default
+
+; *****************
+; ColorPickerButton
+; *****************
+
+; StyleBox Items:
+
+ColorPickerButton.normal = default
+ColorPickerButton.pressed = default
+ColorPickerButton.hover = default
+ColorPickerButton.disabled = default
+ColorPickerButton.font_color = #5c616c
+
+; Font Items:
+
+ColorPickerButton.font = default
+
+; Color Items:
+
+ColorPickerButton.font_color = default
+ColorPickerButton.font_color_disabled = default
+ColorPickerButton.font_color_hover = default
+ColorPickerButton.font_color_pressed = default
+
+; Constant Items:
+
+ColorPickerButton.hseparation = default
+
+; *******
+; Dialogs
+; *******
+
+; Constant Items:
+
+Dialogs.button_margin = default
+Dialogs.margin = default
+
+; ***********
+; EditorIcons
+; ***********
+
+; Icon Items:
+
+EditorIcons.ResizedFolder = default
+EditorIcons.ResizedFile = default
+
+; **********
+; FileDialog
+; **********
+
+; Icon Items:
+
+FileDialog.reload = default
+FileDialog.folder = default
+
+; Color Items:
+
+FileDialog.files_disabled = default
+
+; *****
+; Fonts
+; *****
+
+; Font Items:
+
+Fonts.normal = default
+Fonts.large = default
+
+; *********
+; GraphEdit
+; *********
+
+; StyleBox Items:
+
+GraphEdit.bg = default
+
+; Icon Items:
+
+GraphEdit.minus = default
+GraphEdit.reset = default
+GraphEdit.more = default
+
+; *********
+; GraphNode
+; *********
+
+; StyleBox Items:
+
+GraphNode.frame = default
+GraphNode.selectedframe = default
+GraphNode.defaultframe = default
+GraphNode.defaultfont_color = #5c616c
+
+; Font Items:
+
+GraphNode.title_font = default
+
+; Icon Items:
+
+GraphNode.port = default
+GraphNode.close = default
+
+; Color Items:
+
+GraphNode.title_color = default
+
+; Constant Items:
+
+GraphNode.close_offset = default
+GraphNode.port_offset = default
+GraphNode.separation = default
+GraphNode.title_offset = default
+
+; *************
+; GridContainer
+; *************
+
+; Constant Items:
+
+GridContainer.hseparation = default
+GridContainer.vseparation = default
+
+; *************
+; HBoxContainer
+; *************
+
+; Constant Items:
+
+HBoxContainer.separation = default
+
+; ************
+; HButtonArray
+; ************
+
+; StyleBox Items:
+
+HButtonArray.font_color = #5c616c
+HButtonArray.normal = default
+HButtonArray.selected = default
+HButtonArray.hover = default
+
+; Font Items:
+
+HButtonArray.font_selected = default
+
+; Color Items:
+
+HButtonArray.font_color = default
+HButtonArray.font_color_selected = default
+
+; Constant Items:
+
+HButtonArray.button_separator = default
+HButtonArray.icon_separator = default
+
+; **********
+; HScrollBar
+; **********
+
+; StyleBox Items:
+
+HScrollBar.scroll = default
+HScrollBar.scroll_font_color = #5c616c
+HScrollBar.grabber = default
+HScrollBar.grabber_hilite = default
+
+; Icon Items:
+
+HScrollBar.increment_hilite = default
+
+; **********
+; HSeparator
+; **********
+
+; StyleBox Items:
+
+HSeparator.separator = default
+
+; Constant Items:
+
+HSeparator.separation = default
+
+; *******
+; HSlider
+; *******
+
+; StyleBox Items:
+
+HSlider.font_color = #5c616c
+HSlider.slider = default
+HSlider.grabber_hilite = default
+
+; Icon Items:
+
+HSlider.grabber = default
+HSlider.grabber_hilite = default
+HSlider.tick = default
+
+; ***************
+; HSplitContainer
+; ***************
+
+; StyleBox Items:
+
+HSplitContainer.bg = default
+
+; Icon Items:
+
+HSplitContainer.grabber = default
+
+; Constant Items:
+
+HSplitContainer.autohide = default
+HSplitContainer.separation = default
+
+; *****
+; Icons
+; *****
+
+; Icon Items:
+
+Icons.close = default
+Icons.logo = default
+
+; ********
+; ItemList
+; ********
+
+; StyleBox Items:
+
+ItemList.cursor = default
+ItemList.selected_font_color = #5c616c
+ItemList.selected = default
+ItemList.bg = default
+
+; Font Items:
+
+ItemList.font = default
+
+; Color Items:
+
+ItemList.font_color = default
+ItemList.font_color_selected = default
+ItemList.guide_color = default
+
+; Constant Items:
+
+ItemList.hseparation = default
+ItemList.icon_margin = default
+ItemList.line_separation = default
+ItemList.vseparation = default
+
+; *****
+; Label
+; *****
+
+; Font Items:
+
+Label.font = default
+
+; Color Items:
+
+Label.font_color = default
+Label.font_color_shadow = default
+
+; Constant Items:
+
+Label.line_spacing = default
+Label.shadow_as_outline = default
+Label.shadow_offset_x = default
+Label.shadow_offset_y = default
+
+; ********
+; LineEdit
+; ********
+
+; StyleBox Items:
+
+LineEdit.font_color = #5c616c
+LineEdit.normal = default
+LineEdit.read_only = default
+
+; Font Items:
+
+LineEdit.font = default
+
+; Color Items:
+
+LineEdit.cursor_color = default
+LineEdit.font_color = default
+LineEdit.font_color_selected = default
+LineEdit.selection_color = default
+
+; Constant Items:
+
+LineEdit.minimum_spaces = default
+
+; **********
+; LinkButton
+; **********
+
+; Font Items:
+
+LinkButton.font = default
+
+; Color Items:
+
+LinkButton.font_color = default
+LinkButton.font_color_hover = default
+LinkButton.font_color_pressed = default
+
+; Constant Items:
+
+LinkButton.underline_spacing = default
+
+; ***************
+; MarginContainer
+; ***************
+
+; Constant Items:
+
+MarginContainer.margin_bottom = default
+MarginContainer.margin_left = default
+MarginContainer.margin_right = default
+MarginContainer.margin_top = default
+
+; **********
+; MenuButton
+; **********
+
+; StyleBox Items:
+
+MenuButton.normal = default
+MenuButton.hover = default
+MenuButton.font_color = #5c616c
+MenuButton.disabled = default
+
+; Font Items:
+
+MenuButton.font = default
+
+; Color Items:
+
+MenuButton.font_color = default
+MenuButton.font_color_disabled = default
+MenuButton.font_color_hover = default
+MenuButton.font_color_pressed = default
+
+; Constant Items:
+
+MenuButton.hseparation = default
+
+; ************
+; OptionButton
+; ************
+
+; StyleBox Items:
+
+OptionButton.font_color = #5c616c
+OptionButton.normal = default
+OptionButton.pressed = default
+OptionButton.hover = default
+OptionButton.disabled = default
+
+; Font Items:
+
+OptionButton.font = default
+
+; Icon Items:
+
+OptionButton.arrow = default
+
+; Color Items:
+
+OptionButton.font_color = default
+OptionButton.font_color_disabled = default
+OptionButton.font_color_hover = default
+OptionButton.font_color_pressed = default
+
+; Constant Items:
+
+OptionButton.arrow_margin = default
+OptionButton.hseparation = default
+
+; *****
+; Panel
+; *****
+
+; StyleBox Items:
+
+Panel.panel = default
+Panel.panelf = default
+Panel.panelnc = default
+
+; **************
+; PanelContainer
+; **************
+
+; StyleBox Items:
+
+PanelContainer.panel = default
+
+; *********
+; PopupMenu
+; *********
+
+; StyleBox Items:
+
+PopupMenu.hover = default
+PopupMenu.panel = default
+PopupMenu.panel_disabled = default
+PopupMenu.separator = default
+
+; Font Items:
+
+PopupMenu.font = default
+
+; Icon Items:
+
+PopupMenu.checked = default
+PopupMenu.unchecked = default
+PopupMenu.submenu = default
+
+; Color Items:
+
+PopupMenu.font_color = default
+PopupMenu.font_color_accel = default
+PopupMenu.font_color_disabled = default
+PopupMenu.font_color_hover = default
+
+; Constant Items:
+
+PopupMenu.hseparation = default
+PopupMenu.vseparation = default
+
+; **********
+; PopupPanel
+; **********
+
+; StyleBox Items:
+
+PopupPanel.panel = default
+
+; ***********
+; ProgressBar
+; ***********
+
+; StyleBox Items:
+
+ProgressBar.bg = default
+ProgressBar.fg = default
+
+; Font Items:
+
+ProgressBar.font = default
+
+; Color Items:
+
+ProgressBar.font_color = default
+ProgressBar.font_color_shadow = default
+
+; **************
+; ReferenceFrame
+; **************
+
+; StyleBox Items:
+
+ReferenceFrame.border = default
+
+; *************
+; RichTextLabel
+; *************
+
+; StyleBox Items:
+
+RichTextLabel.font_color = #5c616c
+
+; Font Items:
+
+RichTextLabel.mono_font = default
+
+; Color Items:
+
+RichTextLabel.default_color = default
+RichTextLabel.font_color_selected = default
+RichTextLabel.selection_color = default
+
+; Constant Items:
+
+RichTextLabel.line_separation = default
+RichTextLabel.table_hseparation = default
+RichTextLabel.table_vseparation = default
+
+; *******
+; SpinBox
+; *******
+
+; Icon Items:
+
+SpinBox.updown = default
+
+; ************
+; TabContainer
+; ************
+
+; StyleBox Items:
+
+TabContainer.panel = default
+TabContainer.tab_fg = default
+TabContainer.tab_bg = default
+
+; Font Items:
+
+TabContainer.font = default
+
+; Icon Items:
+
+TabContainer.increment = default
+TabContainer.increment_hilite = default
+TabContainer.decrement = default
+TabContainer.decrement_hilite = default
+TabContainer.menu = default
+TabContainer.menu_hilite = default
+
+; Color Items:
+
+TabContainer.font_color_bg = default
+TabContainer.font_color_fg = default
+
+; Constant Items:
+
+TabContainer.hseparation = default
+TabContainer.label_valign_bg = default
+TabContainer.label_valign_fg = default
+TabContainer.side_margin = default
+TabContainer.top_margin = default
+
+; ****
+; Tabs
+; ****
+
+; StyleBox Items:
+
+Tabs.panel = default
+Tabs.tab_fg = default
+Tabs.tab_bg = default
+Tabs.button_pressed = default
+Tabs.button = default
+
+; Font Items:
+
+Tabs.font = default
+
+; Icon Items:
+
+Tabs.increment = default
+Tabs.increment_hilite = default
+Tabs.decrement = default
+Tabs.decrement_hilite = default
+Tabs.close = default
+
+; Color Items:
+
+Tabs.font_color_bg = default
+Tabs.font_color_fg = default
+
+; Constant Items:
+
+Tabs.hseparation = default
+Tabs.label_valign_bg = default
+Tabs.label_valign_fg = default
+Tabs.top_margin = default
+
+; ********
+; TextEdit
+; ********
+
+; StyleBox Items:
+
+TextEdit.font_color = #5c616c
+TextEdit.normal = default
+TextEdit.completion = default
+TextEdit.completion_selected = default
+
+; Font Items:
+
+TextEdit.font = default
+
+; Icon Items:
+
+TextEdit.tab = default
+
+; Color Items:
+
+TextEdit.brace_mismatch_color = default
+TextEdit.breakpoint_color = default
+TextEdit.caret_color = default
+TextEdit.completion_existing = default
+TextEdit.completion_scroll_color = default
+TextEdit.current_line_color = default
+TextEdit.font_color = default
+TextEdit.font_color_selected = default
+TextEdit.mark_color = default
+TextEdit.selection_color = default
+TextEdit.symbol_color = default
+
+; Constant Items:
+
+TextEdit.completion_lines = default
+TextEdit.completion_max_width = default
+TextEdit.completion_scroll_width = default
+TextEdit.line_spacing = default
+
+; **********
+; ToolButton
+; **********
+
+; StyleBox Items:
+
+ToolButton.font_color = #5c616c
+ToolButton.normal = default
+ToolButton.pressed = default
+ToolButton.hover = default
+ToolButton.disabled = default
+
+; Font Items:
+
+ToolButton.font = default
+
+; Color Items:
+
+ToolButton.font_color = default
+ToolButton.font_color_disabled = default
+ToolButton.font_color_hover = default
+ToolButton.font_color_pressed = default
+
+; Constant Items:
+
+ToolButton.hseparation = default
+
+; ************
+; TooltipLabel
+; ************
+
+; Font Items:
+
+TooltipLabel.font = default
+
+; Color Items:
+
+TooltipLabel.font_color = default
+TooltipLabel.font_color_shadow = default
+
+; Constant Items:
+
+TooltipLabel.shadow_offset_x = default
+TooltipLabel.shadow_offset_y = default
+
+; ************
+; TooltipPanel
+; ************
+
+; StyleBox Items:
+
+TooltipPanel.panel = default
+
+; ****
+; Tree
+; ****
+
+; StyleBox Items:
+
+Tree.cursor = default
+Tree.selected_font_color = #5c616c
+Tree.selected = default
+Tree.bg = default
+Tree.button_pressed = default
+Tree.title_button_normal = default
+Tree.title_button_pressed = default
+Tree.title_button_hover = default
+
+; Font Items:
+
+Tree.title_button_font = default
+
+; Icon Items:
+
+Tree.checked = default
+Tree.unchecked = default
+Tree.updown = default
+Tree.select_arrow = default
+Tree.arrow = default
+Tree.arrow_collapsed = default
+
+; Color Items:
+
+Tree.cursor_color = default
+Tree.drop_position_color = default
+Tree.font_color = default
+Tree.font_color_selected = default
+Tree.guide_color = default
+Tree.selection_color = default
+Tree.title_button_color = default
+
+; Constant Items:
+
+Tree.button_margin = default
+Tree.guide_width = default
+Tree.hseparation = default
+Tree.item_margin = default
+Tree.vseparation = default
+
+; *************
+; VBoxContainer
+; *************
+
+; Constant Items:
+
+VBoxContainer.separation = default
+
+; ************
+; VButtonArray
+; ************
+
+; StyleBox Items:
+
+VButtonArray.font_color = #5c616c
+VButtonArray.normal = default
+VButtonArray.selected = default
+VButtonArray.hover = default
+
+; Font Items:
+
+VButtonArray.font_selected = default
+
+; Color Items:
+
+VButtonArray.font_color = default
+VButtonArray.font_color_selected = default
+
+; Constant Items:
+
+VButtonArray.button_separator = default
+VButtonArray.icon_separator = default
+
+; **********
+; VScrollBar
+; **********
+
+; StyleBox Items:
+
+VScrollBar.scroll = default
+VScrollBar.scroll_font_color = #5c616c
+VScrollBar.grabber = default
+VScrollBar.grabber_hilite = default
+
+; Icon Items:
+
+VScrollBar.increment_hilite = default
+
+; **********
+; VSeparator
+; **********
+
+; StyleBox Items:
+
+VSeparator.separator = default
+
+; Constant Items:
+
+VSeparator.separation = default
+
+; *******
+; VSlider
+; *******
+
+; StyleBox Items:
+
+VSlider.slider = default
+VSlider.grabber_hilite = default
+
+; Icon Items:
+
+VSlider.grabber = default
+VSlider.grabber_hilite = default
+VSlider.tick = default
+
+; ***************
+; VSplitContainer
+; ***************
+
+; StyleBox Items:
+
+VSplitContainer.bg = default
+
+; Icon Items:
+
+VSplitContainer.grabber = default
+
+; Constant Items:
+
+VSplitContainer.autohide = default
+VSplitContainer.separation = default
+
+; ************
+; WindowDialog
+; ************
+
+; StyleBox Items:
+
+WindowDialog.panel = default
+
+; Font Items:
+
+WindowDialog.title_font = default
+
+; Icon Items:
+
+WindowDialog.close = default
+WindowDialog.close_hilite = default
+
+; Color Items:
+
+WindowDialog.title_color = default
+
+; Constant Items:
+
+WindowDialog.close_h_ofs = default
+WindowDialog.close_v_ofs = default
+WindowDialog.title_height = default
+WindowDialog.titlebar_height = default

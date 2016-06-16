@@ -1,0 +1,8 @@
+{
+  "themes": [
+    {
+      "name": "arc",
+      "dir": "addons/themes/arc"
+    }
+  ]
+}
