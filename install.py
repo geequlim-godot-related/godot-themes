@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 import os
 import sys
@@ -32,7 +32,7 @@ def handleFile(inpath, outpath, themdir):
         else:
             content = open(inpath).read()
             content = content.replace(
-                "res://addons/themes", themdir, sys.maxint)
+                "res://addons", themdir, sys.maxint)
             outfile = open(outpath, 'w')
             outfile.write(content)
             outfile.flush()
@@ -40,7 +40,9 @@ def handleFile(inpath, outpath, themdir):
 
 def install(path):
     for theme in meta["themes"]:
-        print("Installing theme %s to %s" % (theme['name'], path))
+        print("Installing theme {} to {}".format(theme['name'], path))
+        if not os.path.isdir(path):
+            os.makedirs(path)
         for p in globPath(theme['dir'], "*"):
             op = os.path.abspath(os.path.join(
                 path, theme["name"], os.path.relpath(p, theme['dir'])))
@@ -58,10 +60,10 @@ if __name__ == '__main__':
         if defaultdir:
             install(defaultdir)
         else:
-            print("Error: Unknown OS detected: %s." % osname)
+            print("Error: Unknown OS detected: {}.".format(osname))
     else:
         path = sys.argv[1]
         if os.path.isdir(path):
             install(path)
         else:
-            print("Error: Directoy %s not found." % path)
+            print("Error: Directoy {} not found.".format(path))

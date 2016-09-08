@@ -1,9 +1,0 @@
-[gd_resource type="DynamicFont" load_steps=2 format=1]
-
-[ext_resource path="res://addons/themes/arc/assets/font/droid_sans_fallback.ttf" type="DynamicFontData" id=1]
-
-[resource]
-
-font/size = 17
-font/font = ExtResource( 1 )
-

@@ -1,12 +1,8 @@
 {
   "themes": [
     {
-      "name": "arc",
-      "dir": "addons/themes/arc"
-    },
-    {
       "name": "arc_dark",
-      "dir": "addons/themes/arc_dark"
+      "dir": "addons/arc_dark"
     }
   ]
 }
