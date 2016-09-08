@@ -26,3 +26,14 @@ Just copy the `addons` folder into you project folder.
 * Create your theme under the addons folder
 * All resources created with godot editor should saved to '.tres'
 * Fill the `theme.json`
+
+
+## Screenshots
+
+### Arc Dark
+
+* This theme is inspired by [horst3180's arc-theme](https://github.com/horst3180/arc-theme).
+* Both LDPI and HiDPI are supported
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_dark_pm.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_dark_LDPI.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_dark_HiDPI.png)
