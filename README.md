@@ -37,3 +37,8 @@ Just copy the `addons` folder into you project folder.
 ![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_dark_pm.png)
 ![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_dark_LDPI.png)
 ![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_dark_HiDPI.png)
+
+### Arc Light
+* This theme is inspired by [horst3180's arc-theme](https://github.com/horst3180/arc-theme).
+* The theme is under developing
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_light_HiDPI.png)

@@ -3,6 +3,10 @@
     {
       "name": "arc_dark",
       "dir": "addons/arc_dark"
+    },
+    {
+      "name": "arc_light",
+      "dir": "addons/arc_light"
     }
   ]
 }

@@ -1,0 +1,15 @@
+[gd_resource type="StyleBoxFlat" format=1]
+
+[resource]
+
+content_margin/left = -1.0
+content_margin/right = -1.0
+content_margin/top = -1.0
+content_margin/bottom = -1.0
+bg_color = Color( 0.298889, 0.600648, 0.921875, 0.845165 )
+light_color = Color( 0.541687, 0.813484, 0.976562, 1 )
+dark_color = Color( 0.510071, 0.703907, 0.953125, 0.269841 )
+border_size = 0
+border_blend = true
+draw_bg = true
+
