@@ -1,0 +1,3 @@
+[submodule "addons/arc_light/assets/godot-design"]
+	path = addons/arc_light/assets/godot-design
+	url = git@github.com:djrm/godot-design.git
