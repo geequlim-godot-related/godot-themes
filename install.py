@@ -11,7 +11,6 @@ cwd = os.getcwd()
 meta = json.load(open(os.path.join(cwd, "theme.json")))
 
 
-
 def globPath(path, pattern):
     result = []
     for root, subdirs, files in os.walk(path):
@@ -56,7 +55,7 @@ if __name__ == '__main__':
         if osname == "Linux" or osname == "Darwin":
             defaultdir = os.path.join(os.path.expanduser("~"), ".godot/theme")
         elif osname == "Windows":
-            defaultdir = os.path.join(os.path.expanduser("~"),"AppData/Roaming/Godot/theme")
+            defaultdir = os.path.join(os.path.expanduser("~"),"AppData/Roaming/Godot/theme").replace("\\","/")
         if defaultdir:
             install(defaultdir)
         else:
