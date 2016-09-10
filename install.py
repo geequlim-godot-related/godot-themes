@@ -56,7 +56,7 @@ if __name__ == '__main__':
         if osname == "Linux" or osname == "Darwin":
             defaultdir = os.path.join(os.path.expanduser("~"), ".godot/theme")
         elif osname == "Windows":
-            defaultdir = os.path.join(os.path.expaduser("~"),"AppData\Roaming\Godot\theme")
+            defaultdir = os.path.join(os.path.expanduser("~"),"AppData/Roaming/Godot/theme")
         if defaultdir:
             install(defaultdir)
         else:
