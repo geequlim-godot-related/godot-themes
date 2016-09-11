@@ -1407,4 +1407,3 @@ WindowDialog/fonts/title_font = null
 WindowDialog/icons/close = ExtResource( 431 )
 WindowDialog/icons/close_hilite = ExtResource( 432 )
 WindowDialog/styles/panel = ExtResource( 433 )
-
