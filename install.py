@@ -55,7 +55,7 @@ if __name__ == '__main__':
         if osname == "Linux" or osname == "Darwin":
             defaultdir = os.path.join(os.path.expanduser("~"), ".godot/theme")
         elif osname == "Windows":
-            defaultdir = os.path.join(os.path.expanduser("~"),"AppData/Roaming/Godot/theme").replace("\\","/")
+            defaultdir = os.path.join(os.path.expanduser("~"), "AppData/Roaming/Godot/theme").replace("\\", "/")
         if defaultdir:
             install(defaultdir)
         else:
@@ -63,6 +63,6 @@ if __name__ == '__main__':
     else:
         path = sys.argv[1]
         if os.path.isdir(path):
-            install(path)
+            install(path.replace("\\", "/"))
         else:
             print("Error: Directoy {} not found.".format(path))
