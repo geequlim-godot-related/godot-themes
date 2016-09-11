@@ -41,4 +41,4 @@ You can select the theme for any UI element in your project. This element and al
 
 ### Arc Light
 * This theme is inspired by [horst3180's arc-theme](https://github.com/horst3180/arc-theme).
-![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_light_lowDPI.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/arc_light_lowDPI1.png)
