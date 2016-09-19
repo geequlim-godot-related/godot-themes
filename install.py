@@ -30,8 +30,7 @@ def handleFile(inpath, outpath, themdir):
             return
         else:
             content = open(inpath).read()
-            content = content.replace(
-                "res://addons", themdir, sys.maxint)
+            content = content.replace("res://addons", themdir)
             outfile = open(outpath, 'w')
             outfile.write(content)
             outfile.flush()
