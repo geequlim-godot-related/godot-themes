@@ -1257,7 +1257,7 @@ RichTextLabel/fonts/normal_font = null
 RichTextLabel/styles/focus = null
 SpinBox/icons/updown = ExtResource( 420 )
 TabContainer/colors/font_color_bg = Color( 0.360784, 0.380392, 0.423529, 1 )
-TabContainer/colors/font_color_fg = Color( 1, 1, 1, 1 )
+TabContainer/colors/font_color_fg = Color( 0.886246, 0.923307, 0.941406, 1 )
 TabContainer/constants/hseparation = 0
 TabContainer/constants/label_valign_bg = 0
 TabContainer/constants/label_valign_fg = 0
@@ -1407,3 +1407,4 @@ WindowDialog/fonts/title_font = null
 WindowDialog/icons/close = ExtResource( 431 )
 WindowDialog/icons/close_hilite = ExtResource( 432 )
 WindowDialog/styles/panel = ExtResource( 433 )
+
