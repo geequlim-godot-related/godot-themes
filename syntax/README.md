@@ -7,15 +7,15 @@ Import the theme file in script editor _File->Import Theme_.
 
 ### Chester
 
-![](../../assets/images/styles/chester.png)
-![](../../assets/images/styles/chester_doc.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/godot-syntax/chester.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/godot-syntax/chester_doc.png)
 
 #### Google code light
 
-![](../../assets/images/styles/gl-light.png)
-![](../../assets/images/styles/gl-light_doc.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/godot-syntax/gl-light.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/godot-syntax/gl-light_doc.png)
 
 ### Monokai
 
-![](../../assets/images/styles/monokai.png)
-![](../../assets/images/styles/monokai_doc.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/godot-syntax/monokai.png)
+![](https://cdn.rawgit.com/Geequlim/depot/master/images/godot/godot-syntax/monokai_doc.png)
