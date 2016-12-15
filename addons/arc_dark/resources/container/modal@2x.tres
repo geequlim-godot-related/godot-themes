@@ -14,9 +14,8 @@ margin/left = 16.25
 margin/right = 18.0
 margin/top = 53.5
 margin/bottom = 11.125
-expand_margin/left = 0.0
-expand_margin/right = 0.0
-expand_margin/top = 0.0
-expand_margin/bottom = 0.0
+expand_margin/left = 16.0
+expand_margin/right = 52.0
+expand_margin/top = 40.0
+expand_margin/bottom = 8.0
 draw_center = true
-
