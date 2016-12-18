@@ -11,7 +11,6 @@ cwd = os.getcwd()
 meta = json.load(open(os.path.join(cwd, "theme.json")))
 
 
-
 def globPath(path, pattern):
     result = []
     for root, subdirs, files in os.walk(path):
@@ -31,8 +30,7 @@ def handleFile(inpath, outpath, themdir):
             return
         else:
             content = open(inpath).read()
-            content = content.replace(
-                "res://addons", themdir, sys.maxint)
+            content = content.replace("res://addons", themdir)
             outfile = open(outpath, 'w')
             outfile.write(content)
             outfile.flush()
@@ -56,7 +54,7 @@ if __name__ == '__main__':
         if osname == "Linux" or osname == "Darwin":
             defaultdir = os.path.join(os.path.expanduser("~"), ".godot/theme")
         elif osname == "Windows":
-            defaultdir = "C://.godot/theme"
+            defaultdir = os.path.join(os.path.expanduser("~"), "AppData/Roaming/Godot/theme").replace("\\", "/")
         if defaultdir:
             install(defaultdir)
         else:
@@ -64,6 +62,6 @@ if __name__ == '__main__':
     else:
         path = sys.argv[1]
         if os.path.isdir(path):
-            install(path)
+            install(path.replace("\\", "/"))
         else:
             print("Error: Directoy {} not found.".format(path))

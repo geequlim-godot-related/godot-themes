@@ -1,0 +1,1410 @@
+[gd_resource type="Theme" load_steps=435 format=1]
+
+[ext_resource path="res://addons/arc_light/resources/button/button-insensitive.tres" type="StyleBox" id=1]
+[ext_resource path="res://addons/arc_light/resources/button/button-hover.tres" type="StyleBox" id=2]
+[ext_resource path="res://addons/arc_light/resources/button/button.tres" type="StyleBox" id=3]
+[ext_resource path="res://addons/arc_light/resources/button/button-active.tres" type="StyleBox" id=4]
+[ext_resource path="res://addons/arc_light/resources/container/panel.tres" type="StyleBox" id=5]
+[ext_resource path="res://addons/arc_light/assets/checkbox/checkbox-checked.png" type="Texture" id=6]
+[ext_resource path="res://addons/arc_light/assets/checkbox/radio-checked.png" type="Texture" id=7]
+[ext_resource path="res://addons/arc_light/assets/checkbox/radio-unchecked.png" type="Texture" id=8]
+[ext_resource path="res://addons/arc_light/assets/checkbox/checkbox-unchecked.png" type="Texture" id=9]
+[ext_resource path="res://addons/arc_light/assets/checkbox/switch-off.png" type="Texture" id=10]
+[ext_resource path="res://addons/arc_light/assets/checkbox/switch-on.png" type="Texture" id=11]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_add_track.png" type="Texture" id=12]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_color_pick.png" type="Texture" id=13]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_accept_dialog.png" type="Texture" id=14]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_track_add_key.png" type="Texture" id=15]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_anchor.png" type="Texture" id=16]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_animated_sprite.png" type="Texture" id=17]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_animated_sprite_3d.png" type="Texture" id=18]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_animation.png" type="Texture" id=19]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_animation_player.png" type="Texture" id=20]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_animation_tree_player.png" type="Texture" id=21]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_area.png" type="Texture" id=22]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_area_2d.png" type="Texture" id=23]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_arrow_left.png" type="Texture" id=24]
+[ext_resource path="res://addons/arc_dark/assets/arrow/arrow-left-prelight.png" type="Texture" id=25]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_arrow_right.png" type="Texture" id=26]
+[ext_resource path="res://addons/arc_dark/assets/arrow/arrow-right-prelight.png" type="Texture" id=27]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_arrow_up.png" type="Texture" id=28]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_atlas_texture.png" type="Texture" id=29]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_audio_stream_gibberish.png" type="Texture" id=30]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_auto_play.png" type="Texture" id=31]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_back.png" type="Texture" id=32]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_back_buffer_copy.png" type="Texture" id=33]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_bake.png" type="Texture" id=34]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_baked_light.png" type="Texture" id=35]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_baked_light_instance.png" type="Texture" id=36]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_baked_light_sampler.png" type="Texture" id=37]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_bitmap_font.png" type="Texture" id=38]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_blend.png" type="Texture" id=39]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_bone.png" type="Texture" id=40]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_bone_attachment.png" type="Texture" id=41]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_bone_track.png" type="Texture" id=42]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_bool.png" type="Texture" id=43]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_box_shape.png" type="Texture" id=44]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_button.png" type="Texture" id=45]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_button_group.png" type="Texture" id=46]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_camera.png" type="Texture" id=47]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_camera_2d.png" type="Texture" id=48]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_canvas_item.png" type="Texture" id=49]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_canvas_item_material.png" type="Texture" id=50]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_canvas_item_shader.png" type="Texture" id=51]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_canvas_item_shader_graph.png" type="Texture" id=52]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_canvas_layer.png" type="Texture" id=53]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_canvas_modulate.png" type="Texture" id=54]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_capsule_shape.png" type="Texture" id=55]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_capsule_shape_2d.png" type="Texture" id=56]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_center_container.png" type="Texture" id=57]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_check_box.png" type="Texture" id=58]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_check_button.png" type="Texture" id=59]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_circle_shape_2d.png" type="Texture" id=60]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_class_list.png" type="Texture" id=61]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_close.png" type="Texture" id=62]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_collapse.png" type="Texture" id=63]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_collision_2d.png" type="Texture" id=64]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_collision_polygon.png" type="Texture" id=65]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_collision_shape.png" type="Texture" id=66]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_collision_shape_2d.png" type="Texture" id=67]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_color.png" type="Texture" id=68]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_color_picker.png" type="Texture" id=69]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_color_picker_button.png" type="Texture" id=70]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_color_ramp.png" type="Texture" id=71]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_concave_polygon_shape.png" type="Texture" id=72]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_concave_polygon_shape_2d.png" type="Texture" id=73]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_cone_twist_joint.png" type="Texture" id=74]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_confirmation_dialog.png" type="Texture" id=75]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_connect.png" type="Texture" id=76]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_connection_and_groups.png" type="Texture" id=77]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_container.png" type="Texture" id=78]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control.png" type="Texture" id=79]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_bottom_center.png" type="Texture" id=80]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_bottom_left.png" type="Texture" id=81]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_bottom_right.png" type="Texture" id=82]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_bottom_wide.png" type="Texture" id=83]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_center.png" type="Texture" id=84]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_center_left.png" type="Texture" id=85]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_center_right.png" type="Texture" id=86]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_left_center.png" type="Texture" id=87]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_left_wide.png" type="Texture" id=88]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_right_center.png" type="Texture" id=89]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_right_wide.png" type="Texture" id=90]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_top_center.png" type="Texture" id=91]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_top_left.png" type="Texture" id=92]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_top_right.png" type="Texture" id=93]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_top_wide.png" type="Texture" id=94]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_align_wide.png" type="Texture" id=95]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_hcenter_wide.png" type="Texture" id=96]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_control_vcenter_wide.png" type="Texture" id=97]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_convex_polygon_shape.png" type="Texture" id=98]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_convex_polygon_shape_2d.png" type="Texture" id=99]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_create_new_scene_from.png" type="Texture" id=100]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_close.png" type="Texture" id=101]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_constant.png" type="Texture" id=102]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_create.png" type="Texture" id=103]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_curve.png" type="Texture" id=104]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_delete.png" type="Texture" id=105]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_edit.png" type="Texture" id=106]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_in.png" type="Texture" id=107]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_in_out.png" type="Texture" id=108]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_linear.png" type="Texture" id=109]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_out.png" type="Texture" id=110]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_curve_out_in.png" type="Texture" id=111]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_debug_continue.png" type="Texture" id=112]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_debug_next.png" type="Texture" id=113]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_debug_step.png" type="Texture" id=114]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_dependency_local_changed.png" type="Texture" id=115]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_dependency_local_changed_hl.png" type="Texture" id=116]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_dependency_ok.png" type="Texture" id=117]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_dependency_ok_hl.png" type="Texture" id=118]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_directional_light.png" type="Texture" id=119]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_duplicate.png" type="Texture" id=120]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_dynamic_font.png" type="Texture" id=121]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_dynamic_font_data.png" type="Texture" id=122]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_edit.png" type="Texture" id=123]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_edit_key.png" type="Texture" id=124]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_edit_pivot.png" type="Texture" id=125]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_edit_resource.png" type="Texture" id=126]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_editor_3d_handle.png" type="Texture" id=127]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_editor_handle.png" type="Texture" id=128]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_editor_pivot.png" type="Texture" id=129]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_editor_plugin.png" type="Texture" id=130]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_error.png" type="Texture" id=131]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_error_sign.png" type="Texture" id=132]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_event_player.png" type="Texture" id=133]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_favorites.png" type="Texture" id=134]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_file_big.png" type="Texture" id=135]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_file_dialog.png" type="Texture" id=136]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_file_list.png" type="Texture" id=137]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_file_server.png" type="Texture" id=138]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_file_server_active.png" type="Texture" id=139]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_file_thumbnail.png" type="Texture" id=140]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_folder.png" type="Texture" id=141]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_folder_big.png" type="Texture" id=142]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_forward.png" type="Texture" id=143]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_gizmo_directional_light.png" type="Texture" id=144]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_gizmo_light.png" type="Texture" id=145]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_gizmo_listener.png" type="Texture" id=146]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_gizmo_spatial_sample_player.png" type="Texture" id=147]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_gizmo_spatial_stream_player.png" type="Texture" id=148]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_godot.png" type="Texture" id=149]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_comment.png" type="Texture" id=150]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_cube_uniform.png" type="Texture" id=151]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_curve_map.png" type="Texture" id=152]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_default_texture.png" type="Texture" id=153]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_edit.png" type="Texture" id=154]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_input.png" type="Texture" id=155]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_node.png" type="Texture" id=156]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_rgb.png" type="Texture" id=157]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_rgb_op.png" type="Texture" id=158]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_rgb_uniform.png" type="Texture" id=159]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_scalar.png" type="Texture" id=160]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_scalar_interp.png" type="Texture" id=161]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_scalar_op.png" type="Texture" id=162]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_scalar_uniform.png" type="Texture" id=163]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_scalars_to_vec.png" type="Texture" id=164]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_texscreen.png" type="Texture" id=165]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_texture_uniform.png" type="Texture" id=166]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_time.png" type="Texture" id=167]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vec_dp.png" type="Texture" id=168]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vec_interp.png" type="Texture" id=169]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vec_length.png" type="Texture" id=170]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vec_op.png" type="Texture" id=171]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vec_scalar_op.png" type="Texture" id=172]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vec_to_scalars.png" type="Texture" id=173]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vecs_to_xform.png" type="Texture" id=174]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vector.png" type="Texture" id=175]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_vector_uniform.png" type="Texture" id=176]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform.png" type="Texture" id=177]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_mult.png" type="Texture" id=178]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_scalar_func.png" type="Texture" id=179]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_to_vecs.png" type="Texture" id=180]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_uniform.png" type="Texture" id=181]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_vec_func.png" type="Texture" id=182]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_vec_imult.png" type="Texture" id=183]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_graph_xform_vec_mult.png" type="Texture" id=184]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_grid.png" type="Texture" id=185]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_grid_container.png" type="Texture" id=186]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_grid_map.png" type="Texture" id=187]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_groove_joint_2d.png" type="Texture" id=188]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_group.png" type="Texture" id=189]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_groups.png" type="Texture" id=190]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_h_box_container.png" type="Texture" id=191]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_h_button_array.png" type="Texture" id=192]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_h_scroll_bar.png" type="Texture" id=193]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_h_separator.png" type="Texture" id=194]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_h_split_container.png" type="Texture" id=195]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_headphones.png" type="Texture" id=196]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_help.png" type="Texture" id=197]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_hidden.png" type="Texture" id=198]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_history.png" type="Texture" id=199]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_image.png" type="Texture" id=200]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_image_texture.png" type="Texture" id=201]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_import_check.png" type="Texture" id=202]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_import_fail.png" type="Texture" id=203]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_instance.png" type="Texture" id=204]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_interp_cubic.png" type="Texture" id=205]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_interp_linear.png" type="Texture" id=206]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_interp_raw.png" type="Texture" id=207]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_interpolated_camera.png" type="Texture" id=208]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_item_list.png" type="Texture" id=209]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key.png" type="Texture" id=210]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key_hover.png" type="Texture" id=211]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key_invalid.png" type="Texture" id=212]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key_next.png" type="Texture" id=213]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key_selected.png" type="Texture" id=214]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key_value.png" type="Texture" id=215]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_key_xform.png" type="Texture" id=216]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_keyboard.png" type="Texture" id=217]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_kinematic_body.png" type="Texture" id=218]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_kinematic_body_2d.png" type="Texture" id=219]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_label.png" type="Texture" id=220]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_light_2d.png" type="Texture" id=221]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_light_occluder_2d.png" type="Texture" id=222]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_line_edit.png" type="Texture" id=223]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_line_shape_2d.png" type="Texture" id=224]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_link_button.png" type="Texture" id=225]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_list_select.png" type="Texture" id=226]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_listener.png" type="Texture" id=227]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_lock.png" type="Texture" id=228]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_loop.png" type="Texture" id=229]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_main_play.png" type="Texture" id=230]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_main_stop.png" type="Texture" id=231]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_margin_container.png" type="Texture" id=232]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_cube.png" type="Texture" id=233]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_cube_off.png" type="Texture" id=234]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_light_1.png" type="Texture" id=235]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_light_1_off.png" type="Texture" id=236]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_light_2.png" type="Texture" id=237]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_light_2_off.png" type="Texture" id=238]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_sphere.png" type="Texture" id=239]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_material_preview_sphere_off.png" type="Texture" id=240]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_menu_button.png" type="Texture" id=241]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_mirror_x.png" type="Texture" id=242]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_mirror_y.png" type="Texture" id=243]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_mouse.png" type="Texture" id=244]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_move_down.png" type="Texture" id=245]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_move_point.png" type="Texture" id=246]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_move_up.png" type="Texture" id=247]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_multi_edit.png" type="Texture" id=248]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_multi_line.png" type="Texture" id=249]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_multi_mesh.png" type="Texture" id=250]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_multi_mesh_instance.png" type="Texture" id=251]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_navigation.png" type="Texture" id=252]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_navigation_2d.png" type="Texture" id=253]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_navigation_mesh_instance.png" type="Texture" id=254]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_navigation_polygon_instance.png" type="Texture" id=255]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_new.png" type="Texture" id=256]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_node.png" type="Texture" id=257]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_node_2d.png" type="Texture" id=258]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_node_warning.png" type="Texture" id=259]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_non_favorite.png" type="Texture" id=260]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_object.png" type="Texture" id=261]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_occluder_polygon_2d.png" type="Texture" id=262]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_omni_light.png" type="Texture" id=263]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_option_button.png" type="Texture" id=264]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_packed_scene.png" type="Texture" id=265]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panel.png" type="Texture" id=266]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panel_container.png" type="Texture" id=267]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panels_1.png" type="Texture" id=268]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panels_2.png" type="Texture" id=269]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panels_2_alt.png" type="Texture" id=270]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panels_3.png" type="Texture" id=271]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panels_3_alt.png" type="Texture" id=272]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_panels_4.png" type="Texture" id=273]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_parallax_background.png" type="Texture" id=274]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_parallax_layer.png" type="Texture" id=275]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_particle_attractor_2d.png" type="Texture" id=276]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_particles.png" type="Texture" id=277]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_particles_2d.png" type="Texture" id=278]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_patch_9_frame.png" type="Texture" id=279]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_path.png" type="Texture" id=280]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_path_2d.png" type="Texture" id=281]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_path_follow.png" type="Texture" id=282]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_path_follow_2d.png" type="Texture" id=283]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_pause.png" type="Texture" id=284]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_pin.png" type="Texture" id=285]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_pin_joint.png" type="Texture" id=286]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_pin_joint_2d.png" type="Texture" id=287]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_pin_pressed.png" type="Texture" id=288]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_plane.png" type="Texture" id=289]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_plane_shape.png" type="Texture" id=290]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_play.png" type="Texture" id=291]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_play_backwards.png" type="Texture" id=292]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_play_custom.png" type="Texture" id=293]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_play_scene.png" type="Texture" id=294]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_play_start.png" type="Texture" id=295]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_play_start_backwards.png" type="Texture" id=296]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_popup.png" type="Texture" id=297]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_popup_dialog.png" type="Texture" id=298]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_popup_menu.png" type="Texture" id=299]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_popup_panel.png" type="Texture" id=300]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_portal.png" type="Texture" id=301]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_position_2d.png" type="Texture" id=302]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_position_3d.png" type="Texture" id=303]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_1.png" type="Texture" id=304]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_2.png" type="Texture" id=305]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_3.png" type="Texture" id=306]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_4.png" type="Texture" id=307]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_5.png" type="Texture" id=308]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_6.png" type="Texture" id=309]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_7.png" type="Texture" id=310]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_8.png" type="Texture" id=311]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_progress_bar.png" type="Texture" id=312]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_quad.png" type="Texture" id=313]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_quat.png" type="Texture" id=314]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_range.png" type="Texture" id=315]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rating_no_star.png" type="Texture" id=316]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rating_star.png" type="Texture" id=317]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_ray_cast.png" type="Texture" id=318]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_ray_cast_2d.png" type="Texture" id=319]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_ray_shape.png" type="Texture" id=320]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_ray_shape_2d.png" type="Texture" id=321]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_reload_small.png" type="Texture" id=322]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_remote.png" type="Texture" id=323]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_remote_transform_2d.png" type="Texture" id=324]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_remove.png" type="Texture" id=325]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rename.png" type="Texture" id=326]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_reparent.png" type="Texture" id=327]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_resource_preloader.png" type="Texture" id=328]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rich_text_label.png" type="Texture" id=329]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rigid_body.png" type="Texture" id=330]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rigid_body_2d.png" type="Texture" id=331]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_room.png" type="Texture" id=332]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rotate_0.png" type="Texture" id=333]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rotate_180.png" type="Texture" id=334]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rotate_270.png" type="Texture" id=335]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_rotate_90.png" type="Texture" id=336]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sample.png" type="Texture" id=337]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sample_player.png" type="Texture" id=338]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sample_player_2d.png" type="Texture" id=339]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_save.png" type="Texture" id=340]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_script.png" type="Texture" id=341]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_scroll_container.png" type="Texture" id=342]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_segment_shape_2d.png" type="Texture" id=343]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_shader.png" type="Texture" id=344]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_signal.png" type="Texture" id=345]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_skeleton.png" type="Texture" id=346]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_slider_joint.png" type="Texture" id=347]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_slot.png" type="Texture" id=348]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sound_room_params.png" type="Texture" id=349]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_spatial_sample_player.png" type="Texture" id=350]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_spatial_stream_player.png" type="Texture" id=351]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sphere_shape.png" type="Texture" id=352]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_spot_light.png" type="Texture" id=353]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sprite.png" type="Texture" id=354]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_sprite_3d.png" type="Texture" id=355]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_static_body.png" type="Texture" id=356]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_static_body_2d.png" type="Texture" id=357]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_stream_player.png" type="Texture" id=358]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_string.png" type="Texture" id=359]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tab_container.png" type="Texture" id=360]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tabs.png" type="Texture" id=361]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_text_edit.png" type="Texture" id=362]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_texture.png" type="Texture" id=363]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_texture_button.png" type="Texture" id=364]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_texture_frame.png" type="Texture" id=365]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_texture_progress.png" type="Texture" id=366]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tile_map.png" type="Texture" id=367]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_timer.png" type="Texture" id=368]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tool_button.png" type="Texture" id=369]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tool_move.png" type="Texture" id=370]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tool_pan.png" type="Texture" id=371]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tool_rotate.png" type="Texture" id=372]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tool_scale.png" type="Texture" id=373]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tool_select.png" type="Texture" id=374]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tools.png" type="Texture" id=375]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_touch_screen_button.png" type="Texture" id=376]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_track_add_key_hl.png" type="Texture" id=377]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_track_continuous.png" type="Texture" id=378]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_track_discrete.png" type="Texture" id=379]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_track_trigger.png" type="Texture" id=380]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_translation.png" type="Texture" id=381]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_transpose.png" type="Texture" id=382]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tree.png" type="Texture" id=383]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_tween.png" type="Texture" id=384]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_unlock.png" type="Texture" id=385]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_v_box_container.png" type="Texture" id=386]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_v_button_array.png" type="Texture" id=387]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_v_scroll_bar.png" type="Texture" id=388]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_v_separator.png" type="Texture" id=389]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_v_slider.png" type="Texture" id=390]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_v_split_container.png" type="Texture" id=391]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_vector.png" type="Texture" id=392]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_vector2.png" type="Texture" id=393]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_vehicle_body.png" type="Texture" id=394]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_vehicle_wheel.png" type="Texture" id=395]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_video_player.png" type="Texture" id=396]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_viewport.png" type="Texture" id=397]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_viewport_sprite.png" type="Texture" id=398]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_visibility_enabler.png" type="Texture" id=399]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_visibility_enabler_2d.png" type="Texture" id=400]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_visibility_notifier.png" type="Texture" id=401]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_visibility_notifier_2d.png" type="Texture" id=402]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_visible.png" type="Texture" id=403]
+[ext_resource path="res://addons/arc_light/resources/container/modal.png" type="Texture" id=404]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_world_environment.png" type="Texture" id=405]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_y_sort.png" type="Texture" id=406]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_zoom.png" type="Texture" id=407]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_zoom_less.png" type="Texture" id=408]
+[ext_resource path="res://addons/arc_light/assets/icons/icon_zoom_reset.png" type="Texture" id=409]
+[ext_resource path="res://addons/arc_light/resources/slider/slider-horiz.tres" type="StyleBox" id=410]
+[ext_resource path="res://addons/arc_light/resources/slider/trough-horizontal-active.tres" type="StyleBox" id=411]
+[ext_resource path="res://addons/arc_light/resources/slider/trough-horizontal.tres" type="StyleBox" id=412]
+[ext_resource path="res://addons/arc_light/assets/slider/slider.png" type="Texture" id=413]
+[ext_resource path="res://addons/arc_light/assets/slider/slider-prelight.png" type="Texture" id=414]
+[ext_resource path="res://addons/arc_light/assets/misc/handle-v.png" type="Texture" id=415]
+[ext_resource path="res://addons/arc_light/resources/container/bg.tres" type="StyleBox" id=416]
+[ext_resource path="res://addons/arc_light/resources/misc/selection.tres" type="StyleBox" id=417]
+[ext_resource path="res://addons/arc_light/resources/input/entery-active-bg.tres" type="StyleBox" id=418]
+[ext_resource path="res://addons/arc_light/resources/input/entery-bg.tres" type="StyleBox" id=419]
+[ext_resource path="res://addons/arc_light/assets/arrow/arrow-updown.png" type="Texture" id=420]
+[ext_resource path="res://addons/arc_light/assets/arrow/arrow-right.png" type="Texture" id=421]
+[ext_resource path="res://addons/arc_light/resources/menu/menu-hover.tres" type="StyleBox" id=422]
+[ext_resource path="res://addons/arc_light/resources/menu/menu.tres" type="StyleBox" id=423]
+[ext_resource path="res://addons/arc_light/resources/container/osd.tres" type="StyleBox" id=424]
+[ext_resource path="res://addons/arc_light/resources/container/frame.tres" type="StyleBox" id=425]
+[ext_resource path="res://addons/arc_light/assets/arrow/arrow-down.png" type="Texture" id=426]
+[ext_resource path="res://addons/arc_light/resources/slider/slider-vert.tres" type="StyleBox" id=427]
+[ext_resource path="res://addons/arc_light/resources/slider/slider-vert-active.tres" type="StyleBox" id=428]
+[ext_resource path="res://addons/arc_light/resources/slider/trough-vertical.tres" type="StyleBox" id=429]
+[ext_resource path="res://addons/arc_light/assets/misc/handle-h.png" type="Texture" id=430]
+[ext_resource path="res://addons/arc_light/assets/misc/close.png" type="Texture" id=431]
+[ext_resource path="res://addons/arc_light/assets/misc/close-hover.png" type="Texture" id=432]
+[ext_resource path="res://addons/arc_light/resources/container/modal.tres" type="StyleBox" id=433]
+[ext_resource path="res://addons/arc_light/resources/font/DroidSansFallback.tres" type="DynamicFont" id=434]
+
+[resource]
+
+default_font = ExtResource( 434 )
+Button/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+Button/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+Button/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+Button/colors/font_color_pressed = Color( 0.360784, 0.380392, 0.423529, 1 )
+Button/constants/hseparation = 0
+Button/fonts/font = null
+Button/styles/disabled = ExtResource( 1 )
+Button/styles/focus = null
+Button/styles/hover = ExtResource( 2 )
+Button/styles/normal = ExtResource( 3 )
+Button/styles/pressed = ExtResource( 4 )
+ButtonGroup/styles/panel = ExtResource( 5 )
+CheckBox/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+CheckBox/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+CheckBox/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+CheckBox/colors/font_color_pressed = Color( 0.238998, 0.24854, 0.269531, 1 )
+CheckBox/constants/check_vadjust = 10
+CheckBox/constants/hseparation = 10
+CheckBox/fonts/font = null
+CheckBox/icons/checked = ExtResource( 6 )
+CheckBox/icons/radio_checked = ExtResource( 7 )
+CheckBox/icons/radio_unchecked = ExtResource( 8 )
+CheckBox/icons/unchecked = ExtResource( 9 )
+CheckBox/styles/disabled = null
+CheckBox/styles/focus = null
+CheckBox/styles/hover = null
+CheckBox/styles/normal = null
+CheckBox/styles/pressed = null
+CheckButton/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+CheckButton/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+CheckButton/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+CheckButton/colors/font_color_pressed = Color( 0.360784, 0.380392, 0.423529, 1 )
+CheckButton/constants/check_vadjust = 10
+CheckButton/constants/hseparation = 10
+CheckButton/fonts/font = null
+CheckButton/icons/off = ExtResource( 10 )
+CheckButton/icons/on = ExtResource( 11 )
+CheckButton/styles/disabled = null
+CheckButton/styles/focus = null
+CheckButton/styles/hover = null
+CheckButton/styles/normal = null
+CheckButton/styles/pressed = null
+ColorPicker/constants/color_width = 0
+ColorPicker/constants/hseparator = 0
+ColorPicker/constants/label_width = 20
+ColorPicker/constants/value_height = 0
+ColorPicker/constants/value_width = 30
+ColorPicker/icons/add_preset = ExtResource( 12 )
+ColorPicker/icons/screen_picker = ExtResource( 13 )
+ColorPickerButton/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+ColorPickerButton/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+ColorPickerButton/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+ColorPickerButton/colors/font_color_pressed = Color( 0.541687, 0.813484, 0.976562, 1 )
+ColorPickerButton/constants/hseparation = 0
+ColorPickerButton/fonts/font = null
+ColorPickerButton/styles/disabled = ExtResource( 1 )
+ColorPickerButton/styles/focus = null
+ColorPickerButton/styles/hover = ExtResource( 2 )
+ColorPickerButton/styles/normal = ExtResource( 3 )
+ColorPickerButton/styles/pressed = ExtResource( 4 )
+Dialogs/constants/button_margin = 15
+Dialogs/constants/margin = 35
+Editor/colors/fg_error = Color( 0.741176, 0.556863, 0.556863, 1 )
+Editor/colors/fg_selected = Color( 0.769012, 0.832136, 0.882812, 1 )
+Editor/colors/prop_category = Color( 0.842651, 0.884739, 0.921875, 1 )
+Editor/colors/prop_section = Color( 0.793213, 0.828982, 0.890625, 1 )
+Editor/colors/prop_subsection = Color( 0.842651, 0.884739, 0.921875, 1 )
+EditorFonts/fonts/doc = null
+EditorFonts/fonts/doc_source = null
+EditorFonts/fonts/doc_title = null
+EditorFonts/fonts/source = null
+EditorIcons/icons/AcceptDialog = ExtResource( 14 )
+EditorIcons/icons/Add = ExtResource( 12 )
+EditorIcons/icons/AddTrack = ExtResource( 15 )
+EditorIcons/icons/Anchor = ExtResource( 16 )
+EditorIcons/icons/AnimExport = null
+EditorIcons/icons/AnimExportAll = null
+EditorIcons/icons/AnimGet = null
+EditorIcons/icons/AnimGetHl = null
+EditorIcons/icons/AnimImport = null
+EditorIcons/icons/AnimImportAll = null
+EditorIcons/icons/AnimSet = null
+EditorIcons/icons/AnimSetHl = null
+EditorIcons/icons/AnimatedSprite = ExtResource( 17 )
+EditorIcons/icons/AnimatedSprite3D = ExtResource( 18 )
+EditorIcons/icons/Animation = ExtResource( 19 )
+EditorIcons/icons/AnimationNode = null
+EditorIcons/icons/AnimationPlay = ExtResource( 20 )
+EditorIcons/icons/AnimationPlayer = null
+EditorIcons/icons/AnimationSet = null
+EditorIcons/icons/AnimationTree = null
+EditorIcons/icons/AnimationTreePlayer = ExtResource( 21 )
+EditorIcons/icons/Area = ExtResource( 22 )
+EditorIcons/icons/Area2D = ExtResource( 23 )
+EditorIcons/icons/ArrayData = null
+EditorIcons/icons/ArrayFloat = null
+EditorIcons/icons/ArrayInt = null
+EditorIcons/icons/ArrayString = null
+EditorIcons/icons/ArrayVariant = null
+EditorIcons/icons/ArrowLeft = ExtResource( 24 )
+EditorIcons/icons/ArrowLeftDisabled = ExtResource( 25 )
+EditorIcons/icons/ArrowRight = ExtResource( 26 )
+EditorIcons/icons/ArrowRightDisabled = ExtResource( 27 )
+EditorIcons/icons/ArrowUp = ExtResource( 28 )
+EditorIcons/icons/ArrowUpDisabled = null
+EditorIcons/icons/AtlasTexture = ExtResource( 29 )
+EditorIcons/icons/AudioStreamGibberish = ExtResource( 30 )
+EditorIcons/icons/AudioStreamMPC = null
+EditorIcons/icons/AudioStreamOGGVorbis = null
+EditorIcons/icons/AudioStreamOpus = null
+EditorIcons/icons/AudioStreamSpeex = null
+EditorIcons/icons/AutoPlay = ExtResource( 31 )
+EditorIcons/icons/BCSFX = null
+EditorIcons/icons/BGColorFX = null
+EditorIcons/icons/BGImageFX = null
+EditorIcons/icons/Back = ExtResource( 32 )
+EditorIcons/icons/BackBufferCopy = ExtResource( 33 )
+EditorIcons/icons/BackDisabled = null
+EditorIcons/icons/BackNo = null
+EditorIcons/icons/Bake = ExtResource( 34 )
+EditorIcons/icons/BakedLight = ExtResource( 35 )
+EditorIcons/icons/BakedLightInstance = ExtResource( 36 )
+EditorIcons/icons/BakedLightSampler = ExtResource( 37 )
+EditorIcons/icons/BitmapFont = ExtResource( 38 )
+EditorIcons/icons/Blend = ExtResource( 39 )
+EditorIcons/icons/Bone = ExtResource( 40 )
+EditorIcons/icons/BoneAttachment = ExtResource( 41 )
+EditorIcons/icons/BoneTrack = ExtResource( 42 )
+EditorIcons/icons/Bool = ExtResource( 43 )
+EditorIcons/icons/BoxShape = ExtResource( 44 )
+EditorIcons/icons/Button = ExtResource( 45 )
+EditorIcons/icons/ButtonGroup = ExtResource( 46 )
+EditorIcons/icons/Camera = ExtResource( 47 )
+EditorIcons/icons/Camera2D = ExtResource( 48 )
+EditorIcons/icons/CanvasItem = ExtResource( 49 )
+EditorIcons/icons/CanvasItemMaterial = ExtResource( 50 )
+EditorIcons/icons/CanvasItemShader = ExtResource( 51 )
+EditorIcons/icons/CanvasItemShaderGraph = ExtResource( 52 )
+EditorIcons/icons/CanvasLayer = ExtResource( 53 )
+EditorIcons/icons/CanvasModulate = ExtResource( 54 )
+EditorIcons/icons/CapsuleShape = ExtResource( 55 )
+EditorIcons/icons/CapsuleShape2D = ExtResource( 56 )
+EditorIcons/icons/CenterContainer = ExtResource( 57 )
+EditorIcons/icons/CharacterBody = null
+EditorIcons/icons/CharacterCamera = null
+EditorIcons/icons/CheckBox = ExtResource( 58 )
+EditorIcons/icons/CheckButton = ExtResource( 59 )
+EditorIcons/icons/Checkerboard = null
+EditorIcons/icons/CircleShape2D = ExtResource( 60 )
+EditorIcons/icons/ClassList = ExtResource( 61 )
+EditorIcons/icons/Click2Edit = null
+EditorIcons/icons/Close = ExtResource( 62 )
+EditorIcons/icons/CloseHover = ExtResource( 62 )
+EditorIcons/icons/Collapse = ExtResource( 63 )
+EditorIcons/icons/CollapseHl = null
+EditorIcons/icons/Collision = null
+EditorIcons/icons/Collision2D = ExtResource( 64 )
+EditorIcons/icons/CollisionPolygon = ExtResource( 65 )
+EditorIcons/icons/CollisionPolygon2D = null
+EditorIcons/icons/CollisionShape = ExtResource( 66 )
+EditorIcons/icons/CollisionShape2D = ExtResource( 67 )
+EditorIcons/icons/Color = ExtResource( 68 )
+EditorIcons/icons/ColorPick = ExtResource( 13 )
+EditorIcons/icons/ColorPicker = ExtResource( 69 )
+EditorIcons/icons/ColorPickerButton = ExtResource( 70 )
+EditorIcons/icons/ColorRamp = ExtResource( 71 )
+EditorIcons/icons/ConcavePolygonShape = ExtResource( 72 )
+EditorIcons/icons/ConcavePolygonShape2D = ExtResource( 73 )
+EditorIcons/icons/ConeTwistJoint = ExtResource( 74 )
+EditorIcons/icons/ConfirmationDialog = ExtResource( 75 )
+EditorIcons/icons/Connect = ExtResource( 76 )
+EditorIcons/icons/ConnectionAndGroups = ExtResource( 77 )
+EditorIcons/icons/Console = null
+EditorIcons/icons/Container = ExtResource( 78 )
+EditorIcons/icons/Control = ExtResource( 79 )
+EditorIcons/icons/ControlAlignBottomCenter = ExtResource( 80 )
+EditorIcons/icons/ControlAlignBottomLeft = ExtResource( 81 )
+EditorIcons/icons/ControlAlignBottomRight = ExtResource( 82 )
+EditorIcons/icons/ControlAlignBottomWide = ExtResource( 83 )
+EditorIcons/icons/ControlAlignCenter = ExtResource( 84 )
+EditorIcons/icons/ControlAlignCenterLeft = ExtResource( 85 )
+EditorIcons/icons/ControlAlignCenterRight = ExtResource( 86 )
+EditorIcons/icons/ControlAlignLeftCenter = ExtResource( 87 )
+EditorIcons/icons/ControlAlignLeftWide = ExtResource( 88 )
+EditorIcons/icons/ControlAlignRightCenter = ExtResource( 89 )
+EditorIcons/icons/ControlAlignRightWide = ExtResource( 90 )
+EditorIcons/icons/ControlAlignTopCenter = ExtResource( 91 )
+EditorIcons/icons/ControlAlignTopLeft = ExtResource( 92 )
+EditorIcons/icons/ControlAlignTopRight = ExtResource( 93 )
+EditorIcons/icons/ControlAlignTopWide = ExtResource( 94 )
+EditorIcons/icons/ControlAlignWide = ExtResource( 95 )
+EditorIcons/icons/ControlHcenterWide = ExtResource( 96 )
+EditorIcons/icons/ControlVcenterWide = ExtResource( 97 )
+EditorIcons/icons/ConvexPolygonShape = ExtResource( 98 )
+EditorIcons/icons/ConvexPolygonShape2D = ExtResource( 99 )
+EditorIcons/icons/CreateNewSceneFrom = ExtResource( 100 )
+EditorIcons/icons/CubeGridMap = null
+EditorIcons/icons/Curve = null
+EditorIcons/icons/CurveClose = ExtResource( 101 )
+EditorIcons/icons/CurveConstant = ExtResource( 102 )
+EditorIcons/icons/CurveCreate = ExtResource( 103 )
+EditorIcons/icons/CurveCurve = ExtResource( 104 )
+EditorIcons/icons/CurveDelete = ExtResource( 105 )
+EditorIcons/icons/CurveEdit = ExtResource( 106 )
+EditorIcons/icons/CurveIn = ExtResource( 107 )
+EditorIcons/icons/CurveInOut = ExtResource( 108 )
+EditorIcons/icons/CurveLinear = ExtResource( 109 )
+EditorIcons/icons/CurveOut = ExtResource( 110 )
+EditorIcons/icons/CurveOutIn = ExtResource( 111 )
+EditorIcons/icons/CylinderShape = null
+EditorIcons/icons/DOFBlurFX = null
+EditorIcons/icons/DampedSpringJoint2D = null
+EditorIcons/icons/Debug = null
+EditorIcons/icons/DebugContinue = ExtResource( 112 )
+EditorIcons/icons/DebugNext = ExtResource( 113 )
+EditorIcons/icons/DebugStep = ExtResource( 114 )
+EditorIcons/icons/DefaultProjectIcon = null
+EditorIcons/icons/Del = null
+EditorIcons/icons/DependencyChanged = null
+EditorIcons/icons/DependencyChangedHl = null
+EditorIcons/icons/DependencyLocalChanged = ExtResource( 115 )
+EditorIcons/icons/DependencyLocalChangedHl = ExtResource( 116 )
+EditorIcons/icons/DependencyOk = ExtResource( 117 )
+EditorIcons/icons/DependencyOkHl = ExtResource( 118 )
+EditorIcons/icons/DirectionalLight = ExtResource( 119 )
+EditorIcons/icons/DocCodeFont = null
+EditorIcons/icons/DocFont = null
+EditorIcons/icons/DocTitleFont = null
+EditorIcons/icons/Down = null
+EditorIcons/icons/Dummy = null
+EditorIcons/icons/Duplicate = ExtResource( 120 )
+EditorIcons/icons/DynamicCharacterBody = null
+EditorIcons/icons/DynamicCustomBody = null
+EditorIcons/icons/DynamicFont = ExtResource( 121 )
+EditorIcons/icons/DynamicFontData = ExtResource( 122 )
+EditorIcons/icons/DynamicRigidBody = null
+EditorIcons/icons/Edit = ExtResource( 123 )
+EditorIcons/icons/EditKey = ExtResource( 124 )
+EditorIcons/icons/EditPivot = ExtResource( 125 )
+EditorIcons/icons/EditResource = ExtResource( 126 )
+EditorIcons/icons/EditSmall = null
+EditorIcons/icons/Editor2D = null
+EditorIcons/icons/Editor3DHandle = ExtResource( 127 )
+EditorIcons/icons/EditorFocus = null
+EditorIcons/icons/EditorHandle = ExtResource( 128 )
+EditorIcons/icons/EditorNode = null
+EditorIcons/icons/EditorPivot = ExtResource( 129 )
+EditorIcons/icons/EditorPlugin = ExtResource( 130 )
+EditorIcons/icons/EditorRect2D = null
+EditorIcons/icons/EmptyControl = null
+EditorIcons/icons/Enum = null
+EditorIcons/icons/Error = ExtResource( 131 )
+EditorIcons/icons/ErrorSign = ExtResource( 132 )
+EditorIcons/icons/EventPlayer = ExtResource( 133 )
+EditorIcons/icons/Expand = null
+EditorIcons/icons/ExpandHl = null
+EditorIcons/icons/Favorites = ExtResource( 134 )
+EditorIcons/icons/File = null
+EditorIcons/icons/FileBig = ExtResource( 135 )
+EditorIcons/icons/FileDialog = ExtResource( 136 )
+EditorIcons/icons/FileList = ExtResource( 137 )
+EditorIcons/icons/FileServer = ExtResource( 138 )
+EditorIcons/icons/FileServerActive = ExtResource( 139 )
+EditorIcons/icons/FileThumbnail = ExtResource( 140 )
+EditorIcons/icons/Filesystem = null
+EditorIcons/icons/FixedMaterial = null
+EditorIcons/icons/FogFX = null
+EditorIcons/icons/Folder = ExtResource( 141 )
+EditorIcons/icons/FolderBig = ExtResource( 142 )
+EditorIcons/icons/FolderScene = null
+EditorIcons/icons/Font = null
+EditorIcons/icons/Forward = ExtResource( 143 )
+EditorIcons/icons/ForwardNo = null
+EditorIcons/icons/Func = null
+EditorIcons/icons/GDScript = null
+EditorIcons/icons/GammaFX = null
+EditorIcons/icons/Generic6DOFJoint = null
+EditorIcons/icons/GizmoDirectionalLight = ExtResource( 144 )
+EditorIcons/icons/GizmoLight = ExtResource( 145 )
+EditorIcons/icons/GizmoListener = ExtResource( 146 )
+EditorIcons/icons/GizmoSpatialSamplePlayer = ExtResource( 147 )
+EditorIcons/icons/GizmoSpatialStreamPlayer = ExtResource( 148 )
+EditorIcons/icons/GlowFX = null
+EditorIcons/icons/Godot = ExtResource( 149 )
+EditorIcons/icons/GodotAssetDefault = null
+EditorIcons/icons/GraphColorRamp = ExtResource( 71 )
+EditorIcons/icons/GraphComment = ExtResource( 150 )
+EditorIcons/icons/GraphCubeUniform = ExtResource( 151 )
+EditorIcons/icons/GraphCurveMap = ExtResource( 152 )
+EditorIcons/icons/GraphDefaultTexture = ExtResource( 153 )
+EditorIcons/icons/GraphEdit = ExtResource( 154 )
+EditorIcons/icons/GraphInput = ExtResource( 155 )
+EditorIcons/icons/GraphNode = ExtResource( 156 )
+EditorIcons/icons/GraphRgb = ExtResource( 157 )
+EditorIcons/icons/GraphRgbOp = ExtResource( 158 )
+EditorIcons/icons/GraphRgbUniform = ExtResource( 159 )
+EditorIcons/icons/GraphScalar = ExtResource( 160 )
+EditorIcons/icons/GraphScalarInterp = ExtResource( 161 )
+EditorIcons/icons/GraphScalarOp = ExtResource( 162 )
+EditorIcons/icons/GraphScalarUniform = ExtResource( 163 )
+EditorIcons/icons/GraphScalarsToVec = ExtResource( 164 )
+EditorIcons/icons/GraphTexscreen = ExtResource( 165 )
+EditorIcons/icons/GraphTextureUniform = ExtResource( 166 )
+EditorIcons/icons/GraphTime = ExtResource( 167 )
+EditorIcons/icons/GraphVecDp = ExtResource( 168 )
+EditorIcons/icons/GraphVecInterp = ExtResource( 169 )
+EditorIcons/icons/GraphVecLength = ExtResource( 170 )
+EditorIcons/icons/GraphVecOp = ExtResource( 171 )
+EditorIcons/icons/GraphVecScalarOp = ExtResource( 172 )
+EditorIcons/icons/GraphVecToScalars = ExtResource( 173 )
+EditorIcons/icons/GraphVecsToXform = ExtResource( 174 )
+EditorIcons/icons/GraphVector = ExtResource( 175 )
+EditorIcons/icons/GraphVectorUniform = ExtResource( 176 )
+EditorIcons/icons/GraphXform = ExtResource( 177 )
+EditorIcons/icons/GraphXformMult = ExtResource( 178 )
+EditorIcons/icons/GraphXformScalarFunc = ExtResource( 179 )
+EditorIcons/icons/GraphXformToVecs = ExtResource( 180 )
+EditorIcons/icons/GraphXformUniform = ExtResource( 181 )
+EditorIcons/icons/GraphXformVecFunc = ExtResource( 182 )
+EditorIcons/icons/GraphXformVecImult = ExtResource( 183 )
+EditorIcons/icons/GraphXformVecMult = ExtResource( 184 )
+EditorIcons/icons/Grid = ExtResource( 185 )
+EditorIcons/icons/GridContainer = ExtResource( 186 )
+EditorIcons/icons/GridMap = ExtResource( 187 )
+EditorIcons/icons/GridMapFloor = null
+EditorIcons/icons/GrooveJoint2D = ExtResource( 188 )
+EditorIcons/icons/Group = ExtResource( 189 )
+EditorIcons/icons/Groups = ExtResource( 190 )
+EditorIcons/icons/HBoxContainer = ExtResource( 191 )
+EditorIcons/icons/HButtonArray = ExtResource( 192 )
+EditorIcons/icons/HScrollBar = ExtResource( 193 )
+EditorIcons/icons/HSeparator = ExtResource( 194 )
+EditorIcons/icons/HSlider = null
+EditorIcons/icons/HSplitContainer = ExtResource( 195 )
+EditorIcons/icons/HTTPRequest = null
+EditorIcons/icons/Headphones = ExtResource( 196 )
+EditorIcons/icons/Help = ExtResource( 197 )
+EditorIcons/icons/Hidden = ExtResource( 198 )
+EditorIcons/icons/HingeJoint = null
+EditorIcons/icons/History = ExtResource( 199 )
+EditorIcons/icons/Hsize = null
+EditorIcons/icons/Iapi = null
+EditorIcons/icons/Image = ExtResource( 200 )
+EditorIcons/icons/ImageTexture = ExtResource( 201 )
+EditorIcons/icons/ImmediateGeometry = ExtResource( 201 )
+EditorIcons/icons/ImportCheck = ExtResource( 202 )
+EditorIcons/icons/ImportFail = ExtResource( 203 )
+EditorIcons/icons/InfluenceZone = null
+EditorIcons/icons/Instance = ExtResource( 204 )
+EditorIcons/icons/InstanceOptions = null
+EditorIcons/icons/Integer = null
+EditorIcons/icons/InterpCubic = ExtResource( 205 )
+EditorIcons/icons/InterpLinear = ExtResource( 206 )
+EditorIcons/icons/InterpRaw = ExtResource( 207 )
+EditorIcons/icons/InterpolatedCamera = ExtResource( 208 )
+EditorIcons/icons/InvalidKey = null
+EditorIcons/icons/InverseKinematics = null
+EditorIcons/icons/ItemList = ExtResource( 209 )
+EditorIcons/icons/JoyAxis = null
+EditorIcons/icons/JoyButton = null
+EditorIcons/icons/Joystick = null
+EditorIcons/icons/Key = ExtResource( 210 )
+EditorIcons/icons/KeyCall = null
+EditorIcons/icons/KeyHover = ExtResource( 211 )
+EditorIcons/icons/KeyInvalid = ExtResource( 212 )
+EditorIcons/icons/KeyInvalidHover = null
+EditorIcons/icons/KeyNext = ExtResource( 213 )
+EditorIcons/icons/KeySelected = ExtResource( 214 )
+EditorIcons/icons/KeyValue = ExtResource( 215 )
+EditorIcons/icons/KeyXform = ExtResource( 216 )
+EditorIcons/icons/Keyboard = ExtResource( 217 )
+EditorIcons/icons/Keying = null
+EditorIcons/icons/KinematicBody = ExtResource( 218 )
+EditorIcons/icons/KinematicBody2D = ExtResource( 219 )
+EditorIcons/icons/Label = ExtResource( 220 )
+EditorIcons/icons/Light2D = ExtResource( 221 )
+EditorIcons/icons/LightMap = null
+EditorIcons/icons/LightOccluder2D = ExtResource( 222 )
+EditorIcons/icons/Lightr = null
+EditorIcons/icons/LineEdit = ExtResource( 223 )
+EditorIcons/icons/LineShape2D = ExtResource( 224 )
+EditorIcons/icons/LinkButton = ExtResource( 225 )
+EditorIcons/icons/ListSelect = ExtResource( 226 )
+EditorIcons/icons/Listener = ExtResource( 227 )
+EditorIcons/icons/LiveDebug = null
+EditorIcons/icons/Load = null
+EditorIcons/icons/Lock = ExtResource( 228 )
+EditorIcons/icons/Logo = null
+EditorIcons/icons/LogoSmall = null
+EditorIcons/icons/Loop = ExtResource( 229 )
+EditorIcons/icons/MainPlay = ExtResource( 230 )
+EditorIcons/icons/MainStop = ExtResource( 231 )
+EditorIcons/icons/MarginContainer = ExtResource( 232 )
+EditorIcons/icons/MaterialPreviewCube = ExtResource( 233 )
+EditorIcons/icons/MaterialPreviewCubeOff = ExtResource( 234 )
+EditorIcons/icons/MaterialPreviewLight1 = ExtResource( 235 )
+EditorIcons/icons/MaterialPreviewLight1Off = ExtResource( 236 )
+EditorIcons/icons/MaterialPreviewLight2 = ExtResource( 237 )
+EditorIcons/icons/MaterialPreviewLight2Off = ExtResource( 238 )
+EditorIcons/icons/MaterialPreviewSphere = ExtResource( 239 )
+EditorIcons/icons/MaterialPreviewSphereOff = ExtResource( 240 )
+EditorIcons/icons/MaterialShader = null
+EditorIcons/icons/MaterialShaderGraph = null
+EditorIcons/icons/Matrix = null
+EditorIcons/icons/MenuButton = ExtResource( 241 )
+EditorIcons/icons/Mesh = null
+EditorIcons/icons/MeshInstance = null
+EditorIcons/icons/MeshOld = null
+EditorIcons/icons/Meshr = null
+EditorIcons/icons/MirrorX = ExtResource( 242 )
+EditorIcons/icons/MirrorY = ExtResource( 243 )
+EditorIcons/icons/Mouse = ExtResource( 244 )
+EditorIcons/icons/MoveDown = ExtResource( 245 )
+EditorIcons/icons/MoveDownHl = null
+EditorIcons/icons/MovePoint = ExtResource( 246 )
+EditorIcons/icons/MoveUp = ExtResource( 247 )
+EditorIcons/icons/MoveUpHl = null
+EditorIcons/icons/MultiEdit = ExtResource( 248 )
+EditorIcons/icons/MultiLine = ExtResource( 249 )
+EditorIcons/icons/MultiMesh = ExtResource( 250 )
+EditorIcons/icons/MultiMeshInstance = ExtResource( 251 )
+EditorIcons/icons/MultiNodeEdit = null
+EditorIcons/icons/Navigation = ExtResource( 252 )
+EditorIcons/icons/Navigation2D = ExtResource( 253 )
+EditorIcons/icons/NavigationMeshInstance = ExtResource( 254 )
+EditorIcons/icons/NavigationPolygonInstance = ExtResource( 255 )
+EditorIcons/icons/New = ExtResource( 256 )
+EditorIcons/icons/Node = ExtResource( 257 )
+EditorIcons/icons/Node2D = ExtResource( 258 )
+EditorIcons/icons/NodeRealSlot = null
+EditorIcons/icons/NodeVecSlot = null
+EditorIcons/icons/NodeWarning = ExtResource( 259 )
+EditorIcons/icons/NonFavorite = ExtResource( 260 )
+EditorIcons/icons/Object = ExtResource( 261 )
+EditorIcons/icons/OccluderPolygon2D = ExtResource( 262 )
+EditorIcons/icons/OmniLight = ExtResource( 263 )
+EditorIcons/icons/Open = null
+EditorIcons/icons/OptionButton = ExtResource( 264 )
+EditorIcons/icons/PHashTranslation = null
+EditorIcons/icons/PackedScene = ExtResource( 265 )
+EditorIcons/icons/PaneDrag = null
+EditorIcons/icons/PaneDragHover = null
+EditorIcons/icons/Panel = ExtResource( 266 )
+EditorIcons/icons/PanelContainer = ExtResource( 267 )
+EditorIcons/icons/PanelTop = null
+EditorIcons/icons/Panels1 = ExtResource( 268 )
+EditorIcons/icons/Panels2 = ExtResource( 269 )
+EditorIcons/icons/Panels2Alt = ExtResource( 270 )
+EditorIcons/icons/Panels3 = ExtResource( 271 )
+EditorIcons/icons/Panels3Alt = ExtResource( 272 )
+EditorIcons/icons/Panels4 = ExtResource( 273 )
+EditorIcons/icons/ParallaxBackground = ExtResource( 274 )
+EditorIcons/icons/ParallaxLayer = ExtResource( 275 )
+EditorIcons/icons/ParticleAttractor2D = ExtResource( 276 )
+EditorIcons/icons/Particles = ExtResource( 277 )
+EditorIcons/icons/Particles2D = ExtResource( 278 )
+EditorIcons/icons/ParticlesFrame = null
+EditorIcons/icons/Patch9Frame = ExtResource( 279 )
+EditorIcons/icons/Path = ExtResource( 280 )
+EditorIcons/icons/Path2D = ExtResource( 281 )
+EditorIcons/icons/PathFollow = ExtResource( 282 )
+EditorIcons/icons/PathFollow2D = ExtResource( 283 )
+EditorIcons/icons/Pause = ExtResource( 284 )
+EditorIcons/icons/PeEdit = null
+EditorIcons/icons/PhysicsJointPin = null
+EditorIcons/icons/Pin = ExtResource( 285 )
+EditorIcons/icons/PinJoint = ExtResource( 286 )
+EditorIcons/icons/PinJoint2D = ExtResource( 287 )
+EditorIcons/icons/PinPressed = ExtResource( 288 )
+EditorIcons/icons/Plane = ExtResource( 289 )
+EditorIcons/icons/PlaneShape = ExtResource( 290 )
+EditorIcons/icons/Play = ExtResource( 291 )
+EditorIcons/icons/PlayBackwards = ExtResource( 292 )
+EditorIcons/icons/PlayCustom = ExtResource( 293 )
+EditorIcons/icons/PlayScene = ExtResource( 294 )
+EditorIcons/icons/PlayStart = ExtResource( 295 )
+EditorIcons/icons/PlayStartBackwards = ExtResource( 296 )
+EditorIcons/icons/Polygon2D = null
+EditorIcons/icons/Popup = ExtResource( 297 )
+EditorIcons/icons/PopupDialog = ExtResource( 298 )
+EditorIcons/icons/PopupMenu = ExtResource( 299 )
+EditorIcons/icons/PopupPanel = ExtResource( 300 )
+EditorIcons/icons/Portal = ExtResource( 301 )
+EditorIcons/icons/Position2D = ExtResource( 302 )
+EditorIcons/icons/Position3D = ExtResource( 303 )
+EditorIcons/icons/PrevScene = null
+EditorIcons/icons/Progress1 = ExtResource( 304 )
+EditorIcons/icons/Progress2 = ExtResource( 305 )
+EditorIcons/icons/Progress3 = ExtResource( 306 )
+EditorIcons/icons/Progress4 = ExtResource( 307 )
+EditorIcons/icons/Progress5 = ExtResource( 308 )
+EditorIcons/icons/Progress6 = ExtResource( 309 )
+EditorIcons/icons/Progress7 = ExtResource( 310 )
+EditorIcons/icons/Progress8 = ExtResource( 311 )
+EditorIcons/icons/ProgressBar = ExtResource( 312 )
+EditorIcons/icons/PropertyEditor = null
+EditorIcons/icons/ProximityGroup = null
+EditorIcons/icons/Quad = ExtResource( 313 )
+EditorIcons/icons/Quat = ExtResource( 314 )
+EditorIcons/icons/Range = ExtResource( 315 )
+EditorIcons/icons/RatingNoStar = ExtResource( 316 )
+EditorIcons/icons/RatingStar = ExtResource( 317 )
+EditorIcons/icons/RayCast = ExtResource( 318 )
+EditorIcons/icons/RayCast2D = ExtResource( 319 )
+EditorIcons/icons/RayShape = ExtResource( 320 )
+EditorIcons/icons/RayShape2D = ExtResource( 321 )
+EditorIcons/icons/Rayito = null
+EditorIcons/icons/Real = null
+EditorIcons/icons/Rect2 = null
+EditorIcons/icons/Rect3 = null
+EditorIcons/icons/RectangleShape2D = null
+EditorIcons/icons/ReferenceFrame = null
+EditorIcons/icons/RegionEdit = null
+EditorIcons/icons/Reload = null
+EditorIcons/icons/ReloadEmpty = null
+EditorIcons/icons/ReloadSmall = ExtResource( 322 )
+EditorIcons/icons/Remote = ExtResource( 323 )
+EditorIcons/icons/RemoteTransform2D = ExtResource( 324 )
+EditorIcons/icons/Remove = ExtResource( 325 )
+EditorIcons/icons/RemoveHl = null
+EditorIcons/icons/RemoveSmall = null
+EditorIcons/icons/Rename = ExtResource( 326 )
+EditorIcons/icons/Reparent = ExtResource( 327 )
+EditorIcons/icons/Replace = null
+EditorIcons/icons/ResourcePreloader = ExtResource( 328 )
+EditorIcons/icons/RichTextLabel = ExtResource( 329 )
+EditorIcons/icons/Rid = null
+EditorIcons/icons/RigidBody = ExtResource( 330 )
+EditorIcons/icons/RigidBody2D = ExtResource( 331 )
+EditorIcons/icons/Room = ExtResource( 332 )
+EditorIcons/icons/RoomInstance = null
+EditorIcons/icons/Rotate0 = ExtResource( 333 )
+EditorIcons/icons/Rotate180 = ExtResource( 334 )
+EditorIcons/icons/Rotate270 = ExtResource( 335 )
+EditorIcons/icons/Rotate90 = ExtResource( 336 )
+EditorIcons/icons/Run = null
+EditorIcons/icons/SSAOFX = null
+EditorIcons/icons/Sample = ExtResource( 337 )
+EditorIcons/icons/SamplePlayer = ExtResource( 338 )
+EditorIcons/icons/SamplePlayer2D = ExtResource( 339 )
+EditorIcons/icons/Save = ExtResource( 340 )
+EditorIcons/icons/Scene = null
+EditorIcons/icons/SceneInstance = null
+EditorIcons/icons/SceneTreeEditor = null
+EditorIcons/icons/Script = ExtResource( 341 )
+EditorIcons/icons/ScriptControl = null
+EditorIcons/icons/ScriptError = null
+EditorIcons/icons/ScriptList = null
+EditorIcons/icons/ScriptNode = null
+EditorIcons/icons/ScrollBar = ExtResource( 193 )
+EditorIcons/icons/ScrollContainer = ExtResource( 342 )
+EditorIcons/icons/SegmentShape2D = ExtResource( 343 )
+EditorIcons/icons/Shader = ExtResource( 344 )
+EditorIcons/icons/ShaderMaterial = null
+EditorIcons/icons/Signal = ExtResource( 345 )
+EditorIcons/icons/Skeleton = ExtResource( 346 )
+EditorIcons/icons/Skeletonr = null
+EditorIcons/icons/SkyBoxFX = null
+EditorIcons/icons/SliderJoint = ExtResource( 347 )
+EditorIcons/icons/Slot = ExtResource( 348 )
+EditorIcons/icons/SmallNext = null
+EditorIcons/icons/Snap = null
+EditorIcons/icons/SoundRoomParams = ExtResource( 349 )
+EditorIcons/icons/Spatial = null
+EditorIcons/icons/SpatialAdd = null
+EditorIcons/icons/SpatialSamplePlayer = ExtResource( 350 )
+EditorIcons/icons/SpatialStreamPlayer = ExtResource( 351 )
+EditorIcons/icons/SphereShape = ExtResource( 352 )
+EditorIcons/icons/SpinBox = null
+EditorIcons/icons/Spline = null
+EditorIcons/icons/SpotLight = ExtResource( 353 )
+EditorIcons/icons/Sprite = ExtResource( 354 )
+EditorIcons/icons/Sprite3D = ExtResource( 355 )
+EditorIcons/icons/SquirrelScript = null
+EditorIcons/icons/StaticBody = ExtResource( 356 )
+EditorIcons/icons/StaticBody2D = ExtResource( 357 )
+EditorIcons/icons/Stop = null
+EditorIcons/icons/StreamPlayer = ExtResource( 358 )
+EditorIcons/icons/String = ExtResource( 359 )
+EditorIcons/icons/Surface = null
+EditorIcons/icons/TabContainer = ExtResource( 360 )
+EditorIcons/icons/TabMenu = null
+EditorIcons/icons/Tabs = ExtResource( 361 )
+EditorIcons/icons/TestCube = null
+EditorIcons/icons/TextEdit = ExtResource( 362 )
+EditorIcons/icons/Texture = ExtResource( 363 )
+EditorIcons/icons/TextureButton = ExtResource( 364 )
+EditorIcons/icons/TextureFrame = ExtResource( 365 )
+EditorIcons/icons/TextureProgress = ExtResource( 366 )
+EditorIcons/icons/ThumbnailWait = null
+EditorIcons/icons/TileMap = ExtResource( 367 )
+EditorIcons/icons/Time = null
+EditorIcons/icons/Timer = ExtResource( 368 )
+EditorIcons/icons/ToolButton = ExtResource( 369 )
+EditorIcons/icons/ToolMove = ExtResource( 370 )
+EditorIcons/icons/ToolPan = ExtResource( 371 )
+EditorIcons/icons/ToolRotate = ExtResource( 372 )
+EditorIcons/icons/ToolScale = ExtResource( 373 )
+EditorIcons/icons/ToolSelect = ExtResource( 374 )
+EditorIcons/icons/Tools = ExtResource( 375 )
+EditorIcons/icons/TouchScreenButton = ExtResource( 376 )
+EditorIcons/icons/TrackAddKey = ExtResource( 15 )
+EditorIcons/icons/TrackAddKeyHl = ExtResource( 377 )
+EditorIcons/icons/TrackContinuous = ExtResource( 378 )
+EditorIcons/icons/TrackDiscrete = ExtResource( 379 )
+EditorIcons/icons/TrackMethod = null
+EditorIcons/icons/TrackProp = null
+EditorIcons/icons/TrackTrigger = ExtResource( 380 )
+EditorIcons/icons/TrackValue = null
+EditorIcons/icons/Translation = ExtResource( 381 )
+EditorIcons/icons/Transpose = ExtResource( 382 )
+EditorIcons/icons/Tree = ExtResource( 383 )
+EditorIcons/icons/Tween = ExtResource( 384 )
+EditorIcons/icons/Unbone = null
+EditorIcons/icons/Ungroup = null
+EditorIcons/icons/Unlock = ExtResource( 385 )
+EditorIcons/icons/Up = null
+EditorIcons/icons/Updown = null
+EditorIcons/icons/Uv = null
+EditorIcons/icons/VBoxContainer = ExtResource( 386 )
+EditorIcons/icons/VButtonArray = ExtResource( 387 )
+EditorIcons/icons/VScrollBar = ExtResource( 388 )
+EditorIcons/icons/VSeparator = ExtResource( 389 )
+EditorIcons/icons/VSlider = ExtResource( 390 )
+EditorIcons/icons/VSplitContainer = ExtResource( 391 )
+EditorIcons/icons/Vector = ExtResource( 392 )
+EditorIcons/icons/Vector2 = ExtResource( 393 )
+EditorIcons/icons/VehicleBody = ExtResource( 394 )
+EditorIcons/icons/VehicleWheel = ExtResource( 395 )
+EditorIcons/icons/VideoPlayer = ExtResource( 396 )
+EditorIcons/icons/VideoStreamTheora = null
+EditorIcons/icons/View = null
+EditorIcons/icons/Viewport = ExtResource( 397 )
+EditorIcons/icons/ViewportSprite = ExtResource( 398 )
+EditorIcons/icons/VisibilityArea = null
+EditorIcons/icons/VisibilityEnabler = ExtResource( 399 )
+EditorIcons/icons/VisibilityEnabler2D = ExtResource( 400 )
+EditorIcons/icons/VisibilityNotifier = ExtResource( 401 )
+EditorIcons/icons/VisibilityNotifier2D = ExtResource( 402 )
+EditorIcons/icons/Visible = ExtResource( 403 )
+EditorIcons/icons/Volume = null
+EditorIcons/icons/VuEmpty = null
+EditorIcons/icons/VuFull = null
+EditorIcons/icons/WaitNoPreview = null
+EditorIcons/icons/WaitPreview1 = null
+EditorIcons/icons/WaitPreview2 = null
+EditorIcons/icons/WaitPreview3 = null
+EditorIcons/icons/WaitPreview4 = null
+EditorIcons/icons/WaitPreview5 = null
+EditorIcons/icons/WaitPreview6 = null
+EditorIcons/icons/WaitPreview7 = null
+EditorIcons/icons/WaitPreview8 = null
+EditorIcons/icons/Warning = ExtResource( 259 )
+EditorIcons/icons/WindowDialog = ExtResource( 404 )
+EditorIcons/icons/WorldEnvironment = ExtResource( 405 )
+EditorIcons/icons/YSort = ExtResource( 406 )
+EditorIcons/icons/Zoom = ExtResource( 407 )
+EditorIcons/icons/ZoomLess = ExtResource( 408 )
+EditorIcons/icons/ZoomMore = ExtResource( 12 )
+EditorIcons/icons/ZoomReset = ExtResource( 409 )
+EditorStyles/styles/EditorFocus = null
+FileDialog/colors/files_disabled = Color( 0.726562, 0.726562, 0.726562, 1 )
+FileDialog/icons/folder = null
+FileDialog/icons/reload = null
+Fonts/fonts/large = null
+Fonts/fonts/normal = null
+GraphEdit/icons/minus = null
+GraphEdit/icons/more = null
+GraphEdit/icons/reset = null
+GraphEdit/styles/bg = ExtResource( 5 )
+GraphNode/colors/title_color = Color( 0, 0, 0, 1 )
+GraphNode/constants/close_offset = 0
+GraphNode/constants/port_offset = 0
+GraphNode/constants/separation = 0
+GraphNode/constants/title_offset = 0
+GraphNode/fonts/title_font = null
+GraphNode/icons/close = null
+GraphNode/icons/port = null
+GraphNode/styles/defaultfocus = null
+GraphNode/styles/defaultframe = null
+GraphNode/styles/frame = null
+GraphNode/styles/selectedframe = null
+GridContainer/constants/hseparation = 0
+GridContainer/constants/vseparation = 0
+HBoxContainer/constants/separation = 0
+HButtonArray/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+HButtonArray/colors/font_color_selected = Color( 0.360784, 0.380392, 0.423529, 1 )
+HButtonArray/constants/button_separator = 0
+HButtonArray/constants/icon_separator = 0
+HButtonArray/fonts/font = null
+HButtonArray/fonts/font_selected = null
+HButtonArray/styles/focus = null
+HButtonArray/styles/hover = ExtResource( 2 )
+HButtonArray/styles/normal = ExtResource( 3 )
+HButtonArray/styles/selected = ExtResource( 4 )
+HScrollBar/icons/decrement = null
+HScrollBar/icons/decrement_hilite = null
+HScrollBar/icons/increment = null
+HScrollBar/icons/increment_hilite = null
+HScrollBar/styles/grabber = ExtResource( 410 )
+HScrollBar/styles/grabber_hilite = ExtResource( 411 )
+HScrollBar/styles/scroll = ExtResource( 412 )
+HScrollBar/styles/scroll_focus = null
+HSeparator/constants/separation = 5
+HSeparator/styles/separator = null
+HSlider/icons/grabber = ExtResource( 413 )
+HSlider/icons/grabber_hilite = ExtResource( 414 )
+HSlider/icons/tick = ExtResource( 413 )
+HSlider/styles/focus = null
+HSlider/styles/grabber_hilite = null
+HSlider/styles/slider = ExtResource( 412 )
+HSplitContainer/constants/autohide = 0
+HSplitContainer/constants/separation = 10
+HSplitContainer/icons/grabber = ExtResource( 415 )
+HSplitContainer/styles/bg = ExtResource( 416 )
+Icons/icons/close = null
+Icons/icons/logo = null
+ItemList/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+ItemList/colors/font_color_selected = Color( 1, 1, 1, 1 )
+ItemList/colors/guide_color = Color( 0, 0, 0, 1 )
+ItemList/constants/hseparation = 0
+ItemList/constants/icon_margin = 10
+ItemList/constants/line_separation = 0
+ItemList/constants/vseparation = 0
+ItemList/fonts/font = null
+ItemList/styles/bg = ExtResource( 5 )
+ItemList/styles/bg_focus = null
+ItemList/styles/cursor = null
+ItemList/styles/cursor_unfocused = null
+ItemList/styles/selected = ExtResource( 417 )
+ItemList/styles/selected_focus = ExtResource( 417 )
+Label/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+Label/constants/line_spacing = 0
+Label/constants/shadow_as_outline = 0
+Label/constants/shadow_offset_x = 0
+Label/constants/shadow_offset_y = 0
+Label/fonts/font = null
+LineEdit/colors/cursor_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+LineEdit/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+LineEdit/colors/font_color_selected = Color( 0.360784, 0.380392, 0.423529, 1 )
+LineEdit/colors/selection_color = Color( 0.169189, 0.546844, 0.773438, 0.32604 )
+LineEdit/constants/minimum_spaces = 10
+LineEdit/fonts/font = null
+LineEdit/styles/focus = ExtResource( 418 )
+LineEdit/styles/normal = ExtResource( 419 )
+LineEdit/styles/read_only = ExtResource( 5 )
+LinkButton/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+LinkButton/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+LinkButton/colors/font_color_pressed = Color( 0.541687, 0.813484, 0.976562, 1 )
+LinkButton/constants/underline_spacing = 0
+LinkButton/fonts/font = null
+MarginContainer/constants/margin_bottom = 0
+MarginContainer/constants/margin_left = 0
+MarginContainer/constants/margin_right = 0
+MarginContainer/constants/margin_top = 0
+MenuButton/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+MenuButton/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+MenuButton/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+MenuButton/colors/font_color_pressed = Color( 0.360784, 0.380392, 0.423529, 1 )
+MenuButton/constants/hseparation = 0
+MenuButton/fonts/font = null
+MenuButton/styles/disabled = null
+MenuButton/styles/focus = null
+MenuButton/styles/hover = ExtResource( 2 )
+MenuButton/styles/normal = ExtResource( 3 )
+MenuButton/styles/pressed = ExtResource( 4 )
+OptionButton/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+OptionButton/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+OptionButton/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+OptionButton/colors/font_color_pressed = Color( 0.360784, 0.380392, 0.423529, 1 )
+OptionButton/constants/arrow_margin = 8
+OptionButton/constants/hseparation = 0
+OptionButton/fonts/font = null
+OptionButton/icons/arrow = ExtResource( 420 )
+OptionButton/styles/disabled = ExtResource( 1 )
+OptionButton/styles/focus = null
+OptionButton/styles/hover = ExtResource( 2 )
+OptionButton/styles/normal = ExtResource( 3 )
+OptionButton/styles/pressed = ExtResource( 4 )
+Panel/styles/panel = ExtResource( 5 )
+Panel/styles/panelf = ExtResource( 5 )
+Panel/styles/panelnc = ExtResource( 5 )
+PanelContainer/styles/panel = ExtResource( 5 )
+PopupMenu/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+PopupMenu/colors/font_color_accel = Color( 0, 0, 0, 1 )
+PopupMenu/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+PopupMenu/colors/font_color_hover = Color( 1, 1, 1, 1 )
+PopupMenu/constants/hseparation = 0
+PopupMenu/constants/vseparation = 0
+PopupMenu/fonts/font = null
+PopupMenu/icons/checked = ExtResource( 6 )
+PopupMenu/icons/submenu = ExtResource( 421 )
+PopupMenu/icons/unchecked = ExtResource( 9 )
+PopupMenu/styles/hover = ExtResource( 422 )
+PopupMenu/styles/panel = ExtResource( 423 )
+PopupMenu/styles/panel_disabled = null
+PopupMenu/styles/separator = null
+PopupPanel/styles/panel = ExtResource( 424 )
+ProgressBar/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+ProgressBar/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+ProgressBar/fonts/font = null
+ProgressBar/styles/bg = ExtResource( 412 )
+ProgressBar/styles/fg = ExtResource( 411 )
+ReferenceFrame/styles/border = null
+RichTextLabel/colors/default_color = Color( 0, 0, 0, 1 )
+RichTextLabel/colors/font_color_selected = Color( 0.360784, 0.380392, 0.423529, 1 )
+RichTextLabel/colors/selection_color = Color( 0.169189, 0.546844, 0.773438, 0.32604 )
+RichTextLabel/constants/line_separation = 0
+RichTextLabel/constants/table_hseparation = 0
+RichTextLabel/constants/table_vseparation = 0
+RichTextLabel/fonts/bold_font = null
+RichTextLabel/fonts/bold_italics_font = null
+RichTextLabel/fonts/italics_font = null
+RichTextLabel/fonts/mono_font = null
+RichTextLabel/fonts/normal_font = null
+RichTextLabel/styles/focus = null
+SpinBox/icons/updown = ExtResource( 420 )
+TabContainer/colors/font_color_bg = Color( 0.360784, 0.380392, 0.423529, 1 )
+TabContainer/colors/font_color_fg = Color( 0.886246, 0.923307, 0.941406, 1 )
+TabContainer/constants/hseparation = 0
+TabContainer/constants/label_valign_bg = 0
+TabContainer/constants/label_valign_fg = 0
+TabContainer/constants/side_margin = 0
+TabContainer/constants/top_margin = 0
+TabContainer/fonts/font = null
+TabContainer/icons/decrement = null
+TabContainer/icons/decrement_hilite = null
+TabContainer/icons/increment = null
+TabContainer/icons/increment_hilite = null
+TabContainer/icons/menu = null
+TabContainer/icons/menu_hilite = null
+TabContainer/styles/panel = ExtResource( 5 )
+TabContainer/styles/tab_bg = ExtResource( 425 )
+TabContainer/styles/tab_fg = ExtResource( 422 )
+Tabs/colors/font_color_bg = Color( 0.320312, 0.320312, 0.320312, 1 )
+Tabs/colors/font_color_fg = Color( 0.795593, 0.802569, 0.859375, 1 )
+Tabs/constants/hseparation = 0
+Tabs/constants/label_valign_bg = 0
+Tabs/constants/label_valign_fg = 0
+Tabs/constants/top_margin = 0
+Tabs/fonts/font = null
+Tabs/icons/close = null
+Tabs/icons/decrement = null
+Tabs/icons/decrement_hilite = null
+Tabs/icons/increment = null
+Tabs/icons/increment_hilite = null
+Tabs/styles/button = null
+Tabs/styles/button_pressed = null
+Tabs/styles/panel = ExtResource( 5 )
+Tabs/styles/tab_bg = null
+Tabs/styles/tab_fg = ExtResource( 422 )
+TextEdit/colors/brace_mismatch_color = Color( 0.929688, 0.243317, 0.243317, 1 )
+TextEdit/colors/breakpoint_color = Color( 0.882812, 0.594541, 0.144836, 1 )
+TextEdit/colors/caret_background_color = Color( 0.5625, 0.25708, 0.46467, 1 )
+TextEdit/colors/caret_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+TextEdit/colors/completion_background_color = Color( 0, 0, 0, 1 )
+TextEdit/colors/completion_existing_color = Color( 0, 0, 0, 1 )
+TextEdit/colors/completion_font_color = Color( 0, 0, 0, 1 )
+TextEdit/colors/completion_scroll_color = Color( 0, 0, 0, 1 )
+TextEdit/colors/completion_selected_color = Color( 0.24321, 0.670617, 0.902344, 0.223755 )
+TextEdit/colors/current_line_color = Color( 0.863281, 0.832932, 0.832932, 0.269841 )
+TextEdit/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+TextEdit/colors/font_color_selected = Color( 0.537964, 0.56028, 0.609375, 1 )
+TextEdit/colors/function_color = Color( 0.102661, 0.604904, 0.90625, 1 )
+TextEdit/colors/line_number_color = Color( 0.291694, 0.300781, 0.279633, 1 )
+TextEdit/colors/mark_color = Color( 0.996094, 0.47081, 0.950952, 1 )
+TextEdit/colors/member_variable_color = Color( 0.902344, 0.310181, 0.310181, 1 )
+TextEdit/colors/number_color = Color( 0.78125, 0.534916, 0.012207, 1 )
+TextEdit/colors/selection_color = Color( 0.510071, 0.703907, 0.953125, 0.269841 )
+TextEdit/colors/symbol_color = Color( 0.332031, 0.298309, 0.298309, 1 )
+TextEdit/colors/word_highlighted_color = Color( 0.511719, 0.487732, 0.487732, 1 )
+TextEdit/constants/completion_lines = 10
+TextEdit/constants/completion_max_width = 60
+TextEdit/constants/completion_scroll_width = 0
+TextEdit/constants/line_spacing = 0
+TextEdit/fonts/font = null
+TextEdit/icons/tab = null
+TextEdit/styles/completion = ExtResource( 419 )
+TextEdit/styles/focus = ExtResource( 418 )
+TextEdit/styles/normal = ExtResource( 419 )
+ToolButton/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+ToolButton/colors/font_color_disabled = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+ToolButton/colors/font_color_hover = Color( 0.360784, 0.380392, 0.423529, 1 )
+ToolButton/colors/font_color_pressed = Color( 0.360784, 0.380392, 0.423529, 1 )
+ToolButton/constants/hseparation = 0
+ToolButton/fonts/font = null
+ToolButton/styles/disabled = ExtResource( 1 )
+ToolButton/styles/focus = null
+ToolButton/styles/hover = ExtResource( 2 )
+ToolButton/styles/normal = ExtResource( 3 )
+ToolButton/styles/pressed = ExtResource( 4 )
+TooltipLabel/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+TooltipLabel/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+TooltipLabel/constants/shadow_offset_x = 0
+TooltipLabel/constants/shadow_offset_y = 0
+TooltipLabel/fonts/font = null
+TooltipPanel/styles/panel = ExtResource( 424 )
+Tree/colors/cursor_color = Color( 0, 0, 0, 1 )
+Tree/colors/drop_position_color = Color( 0, 0, 0, 1 )
+Tree/colors/font_color = Color( 0.304688, 0.304688, 0.304688, 1 )
+Tree/colors/font_color_selected = Color( 0.360784, 0.380392, 0.423529, 1 )
+Tree/colors/guide_color = Color( 0, 0, 0, 1 )
+Tree/colors/relationship_line_color = Color( 0.811765, 0.839216, 0.901961, 0.524433 )
+Tree/colors/selection_color = Color( 0.169189, 0.546844, 0.773438, 0.32604 )
+Tree/colors/title_button_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+Tree/constants/button_margin = 0
+Tree/constants/draw_relationship_lines = 0
+Tree/constants/guide_width = 0
+Tree/constants/hseparation = 10
+Tree/constants/item_margin = 25
+Tree/constants/vseparation = 5
+Tree/fonts/font = null
+Tree/fonts/title_button_font = null
+Tree/icons/arrow = ExtResource( 426 )
+Tree/icons/arrow_collapsed = ExtResource( 421 )
+Tree/icons/checked = ExtResource( 6 )
+Tree/icons/select_arrow = ExtResource( 426 )
+Tree/icons/unchecked = ExtResource( 9 )
+Tree/icons/updown = ExtResource( 420 )
+Tree/styles/bg = ExtResource( 5 )
+Tree/styles/bg_focus = null
+Tree/styles/button_pressed = ExtResource( 4 )
+Tree/styles/cursor = null
+Tree/styles/cursor_unfocused = null
+Tree/styles/selected = ExtResource( 417 )
+Tree/styles/selected_focus = ExtResource( 417 )
+Tree/styles/title_button_hover = ExtResource( 2 )
+Tree/styles/title_button_normal = ExtResource( 3 )
+Tree/styles/title_button_pressed = ExtResource( 4 )
+VBoxContainer/constants/separation = 0
+VButtonArray/colors/font_color = Color( 0.360784, 0.380392, 0.423529, 1 )
+VButtonArray/colors/font_color_selected = Color( 0.360784, 0.380392, 0.423529, 1 )
+VButtonArray/constants/button_separator = 0
+VButtonArray/constants/icon_separator = 0
+VButtonArray/fonts/font = null
+VButtonArray/fonts/font_selected = null
+VButtonArray/styles/focus = null
+VButtonArray/styles/hover = ExtResource( 2 )
+VButtonArray/styles/normal = ExtResource( 3 )
+VButtonArray/styles/selected = ExtResource( 4 )
+VScrollBar/icons/decrement = null
+VScrollBar/icons/decrement_hilite = null
+VScrollBar/icons/increment = null
+VScrollBar/icons/increment_hilite = null
+VScrollBar/styles/grabber = ExtResource( 427 )
+VScrollBar/styles/grabber_hilite = ExtResource( 428 )
+VScrollBar/styles/scroll = ExtResource( 429 )
+VScrollBar/styles/scroll_focus = null
+VSeparator/constants/separation = 5
+VSeparator/styles/separator = null
+VSlider/icons/grabber = ExtResource( 413 )
+VSlider/icons/grabber_hilite = ExtResource( 414 )
+VSlider/icons/tick = ExtResource( 413 )
+VSlider/styles/grabber_hilite = null
+VSlider/styles/slider = ExtResource( 429 )
+VSplitContainer/constants/autohide = 0
+VSplitContainer/constants/separation = 10
+VSplitContainer/icons/grabber = ExtResource( 430 )
+VSplitContainer/styles/bg = ExtResource( 416 )
+WindowDialog/colors/title_color = Color( 0.296875, 0.295715, 0.295715, 1 )
+WindowDialog/constants/close_h_ofs = 40
+WindowDialog/constants/close_v_ofs = -8
+WindowDialog/constants/title_height = -5
+WindowDialog/constants/titlebar_height = 30
+WindowDialog/fonts/title_font = null
+WindowDialog/icons/close = ExtResource( 431 )
+WindowDialog/icons/close_hilite = ExtResource( 432 )
+WindowDialog/styles/panel = ExtResource( 433 )
+

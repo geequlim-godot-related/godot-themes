@@ -47,4 +47,4 @@ if not os.path.isdir(outdir):
 for p in globPath('icons', "**.png"):
     inpng, outpng = p, os.path.join(outdir, os.path.basename(p))
     print("{} ==> {}".format(inpng, outpng))
-    bright(inpng, outpng, 0.8)
+    bright(inpng, outpng, 0.7)

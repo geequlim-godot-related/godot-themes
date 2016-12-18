@@ -1,0 +1,23 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=1]
+
+[ext_resource path="res://addons/arc_light/assets/button/button-active.png" type="Texture" id=1]
+
+[resource]
+
+content_margin/left = -1.0
+content_margin/right = -1.0
+content_margin/top = -1.0
+content_margin/bottom = -1.0
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 24, 24.967 )
+margin/left = 6.0
+margin/right = 7.125
+margin/top = 8.625
+margin/bottom = 6.625
+expand_margin/left = 0.0
+expand_margin/right = 0.0
+expand_margin/top = 0.0
+expand_margin/bottom = 0.0
+modulate/color = Color( 1, 1, 1, 1 )
+draw_center = true
+
