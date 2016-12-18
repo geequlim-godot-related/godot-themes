@@ -1,0 +1,22 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=1]
+
+[ext_resource path="res://addons/adobe/assets/panel/Body Darker@2x.png" type="Texture" id=1]
+
+[resource]
+
+content_margin/left = -1.0
+content_margin/right = -1.0
+content_margin/top = -1.0
+content_margin/bottom = -1.0
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 40, 40 )
+margin/left = 6.75
+margin/right = 5.75
+margin/top = 5.5
+margin/bottom = 6.5
+expand_margin/left = 2.0
+expand_margin/right = 2.0
+expand_margin/top = 2.0
+expand_margin/bottom = 2.0
+draw_center = true
+

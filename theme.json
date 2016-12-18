@@ -7,6 +7,10 @@
     {
       "name": "arc_light",
       "dir": "addons/arc_light"
+    },
+    {
+      "name": "adobe",
+      "dir": "addons/adobe"
     }
   ]
 }
