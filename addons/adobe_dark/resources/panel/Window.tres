@@ -1,0 +1,23 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=1]
+
+[ext_resource path="res://addons/adobe_dark/assets/panel/window.png" type="Texture" id=1]
+
+[resource]
+
+content_margin/left = -1.0
+content_margin/right = -1.0
+content_margin/top = -1.0
+content_margin/bottom = -1.0
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 60, 65 )
+margin/left = 13.875
+margin/right = 12.875
+margin/top = 52.875
+margin/bottom = 35.125
+expand_margin/left = 15.0
+expand_margin/right = 15.0
+expand_margin/top = 30.0
+expand_margin/bottom = 25.0
+modulate/color = Color( 1, 1, 1, 1 )
+draw_center = true
+

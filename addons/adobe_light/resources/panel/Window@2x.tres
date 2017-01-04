@@ -1,0 +1,22 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=1]
+
+[ext_resource path="res://addons/adobe_light/assets/panel/window@2x.png" type="Texture" id=1]
+
+[resource]
+
+content_margin/left = -1.0
+content_margin/right = -1.0
+content_margin/top = -1.0
+content_margin/bottom = -1.0
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 120, 130 )
+margin/left = 26.375
+margin/right = 28.375
+margin/top = 64.875
+margin/bottom = 36.625
+expand_margin/left = 30.0
+expand_margin/right = 30.0
+expand_margin/top = 50.0
+expand_margin/bottom = 50.0
+draw_center = true
+

@@ -11,6 +11,14 @@
     {
       "name": "adobe",
       "dir": "addons/adobe"
+    },
+    {
+      "name": "adobe_dark",
+      "dir": "addons/adobe_dark"
+    },
+    {
+      "name": "adobe_light",
+      "dir": "addons/adobe_light"
     }
   ]
 }
